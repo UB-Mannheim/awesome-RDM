@@ -29,7 +29,24 @@ In a wider sense research data management include also research information mana
         * [Data policies](#data-policies)
         * [Reusing data](#reusing-data)
     * [Executing a project](#executing-a-project)
+        * [Collecting data](#collecting-data)
+        * [Organizing data](#organizing-data)
+        * [Data storage](#data-storage)
+        * [Data backup](#data-backup)
+        * [Cleaning data](#cleaning-data)
+        * [Data exploration](#data-exploration)
+        * [Data interpretation](#data-interpretation)
+        * [Anonymising data](#anonymising-data)
+        * [Data protection](#data-protection)
     * [Finishing a project](#finishing-a-project)
+        * [Sharing data](#sharing-data)
+        * [Publishing data](#publishing-data)
+        * [Presenting data](#presenting-data)
+        * [Data licensing](#data-licensing)
+        * [Archiving data](#archiving-data)
+    * [Domain-specific resources](#domain-specific-resources)
+        * [Social and economic data](#social-and-economic-data)
+        * [Digital humanities](#digital-humanities)
 * [RDM for organizations](#rdm-for-organizations)
     * [How to develop RDM services](#how-to-develop-rdm-services)
     * [Persistent identifiers](#persistent-identifiers)
@@ -176,14 +193,14 @@ Check quality of the data. Check licenses. If you reuse data, cite it.
 
 ### Executing a project
 
-#### Data collecting
+#### Collecting data
 
 * [Data collecting](https://rdmkit.elixir-europe.org/collecting) in RDMkit
 
 Reusing existing data
 Collecting new data
 
-#### Data organization
+#### Organizing data
 
 * [Data organization](https://rdmkit.elixir-europe.org/data_organisation) in RDMkit
 
@@ -193,15 +210,15 @@ File versioning
 
 Folder structure
 
-#### Data Storage
+#### Data storage
 
-Separate Storage For Sensitive Data
+Separate storage for sensitive data
 
 #### Data backup
 
-#### Data cleansing
+#### Cleaning data
 
-#### Data exploration and modeling
+#### Data exploration
 
 #### Data interpretation
 
@@ -239,9 +256,7 @@ Data journals
 * [License chooser](https://creativecommons.org/choose)
 * [RDA & CODATA Legal Interoperability Of Research Data: Principles And Implementation Guidelines](https://www.rd-alliance.org/rda-codata-legal-interoperability-research-data-principles-and-implementation-guidelines-now)
 
-### Data preservation (archiving)
-
-###
+#### Archiving data
 
 ### Domain-specific resources
 
