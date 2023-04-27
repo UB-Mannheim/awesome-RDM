@@ -308,3 +308,4 @@ Data journals
 * [Patrick Sahle's Catalog of Digital Scholarly Editions](https://v3.digitale-edition.de)
 * [RIDE – A review journal for digital editions and resources](https://ride.i-d-e.de)
 * [TEI Publisher](https://teipublisher.com) is a software for publishing digital editions
+* [ediarum](https://www.ediarum.org) is a software for creating and publishing digital editions
