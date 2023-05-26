@@ -185,10 +185,13 @@ First, find it.
     * [DataCite](https://search.datacite.org)
     * [OpenAIRE](https://explore.openaire.eu/search/find)
     * [Google Dataset Search](https://datasetsearch.research.google.com)
-* Check the links in data papers published in [data journals](https://www.forschungsdaten.org/index.php/Data_Journals):
-    * [Data](https://www.mdpi.com/journal/data) by MDPI
-    * [Scientific Data](https://www.nature.com/sdata) by Nature
-    * [Data in brief](https://www.sciencedirect.com/journal/data-in-brief) by ScienceDirect
+* Check the links in data papers:
+    * list of data journals at [Forschungsdaten.org](https://www.forschungsdaten.org/index.php/Data_Journals)
+    * list of data journals at [GitHub repo data-journals](https://github.com/MaxiKi/data-journals/blob/main/data_journals_characteristics.csv)
+    * examples of data journals:
+          1. [Data](https://www.mdpi.com/journal/data) by MDPI
+          2. [Scientific Data](https://www.nature.com/sdata) by Nature
+          3. [Data in brief](https://www.sciencedirect.com/journal/data-in-brief) by ScienceDirect
 
 Check quality of the data. Check licenses. If you reuse data, cite it.
 
