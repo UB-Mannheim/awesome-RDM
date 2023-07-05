@@ -292,10 +292,17 @@ Data journals
 ### Others
 
 * [LEARN Project resources](https://learn-rdm.eu/en/about) are resources to help Research Performing Institutions manage their research data
+* [Paper: Digitale Werkzeuge zur textbasierten Annotation, Korpusanalyse und Netzwerkanalyse in den Geisteswissenschaften](https://tuprints.ulb.tu-darmstadt.de/17850/1/Digital_Philology__Working_Papers_in_Digital_Philology_vol002.pdf] that sums up and explains different tools
+* [The Programming Historian](https://programminghistorian.org/) provides tutorials about DH topics for humanists 
 
 ## Tools
 
 * [OpenMethods.Dariah](https://openmethods.dariah.eu) is a list of digital humanities tools and methods
+* [CLARIN-D](https://www.clarin-d.net/de/) is a is a research infrastructure that helps researchers of Humanities, Cultural and Social Sciences with accessing, preparing and analysing of research data
+* [TAPoR](https://tapor.ca/tools) is a list of reasearch tools for text analysis
+* [SSH Open Market Place](https://marketplace.sshopencloud.eu/) is a place for resources for research in Social Sciences and Humanities
+* [BAS](https://clarin.phonetik.uni-muenchen.de/BASWebServices/interface) is a set of tools for speech sciences and technology
+* [TextGrid](https://textgrid.de/en/) is a virtual research environment for the humanities that is optimised for working with TEI-coded resources 
 
 ## Registries of Terminologies, Vocabularies, Ontologies
 
@@ -312,3 +319,5 @@ Data journals
 * [RIDE – A review journal for digital editions and resources](https://ride.i-d-e.de)
 * [TEI Publisher](https://teipublisher.com) is a software for publishing digital editions
 * [ediarum](https://www.ediarum.org) is a software for creating and publishing digital editions
+* [KONDE - Kompetenzzentrum Digitale Edition](https://www.digitale-edition.at/context:konde) is a guideline to publish a digital edition
+* [Dig-Ed-Cat](https://dig-ed-cat.acdh.oeaw.ac.at/) is a Catalogue of Digital Editions
