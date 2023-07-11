@@ -188,6 +188,7 @@ First, find it.
 * Check the links in data papers:
     * list of data journals at [Forschungsdaten.org](https://www.forschungsdaten.org/index.php/Data_Journals)
     * list of data journals at [GitHub repo data-journals](https://github.com/MaxiKi/data-journals/blob/main/data_journals_characteristics.csv)
+    * list of data journals at [Wikidata](https://w.wiki/6$vi)
     * examples of data journals:
           1. [Data](https://www.mdpi.com/journal/data) by MDPI
           2. [Scientific Data](https://www.nature.com/sdata) by Nature
@@ -241,6 +242,11 @@ Derived Data
 
 ### Finishing a project
 
+The [difference between sharing, publishing & archiving](https://datacarpentry.org/rr-publication/01-publication) is:
+* sharing: any way of sharing information, could mean also emailing. It means also making research data available throughout the research lifecycle, especially during the active research phase, typically via cloud storage.
+* publishing: citable artifact, discoverable.
+* archiving: long-term preservation.
+
 #### Sharing data
 
 There are many benefits to sharing data.
@@ -249,7 +255,10 @@ You can share the data via GitHub
 
 #### Publishing data
 
-Data journals
+Data journals:
+* list of data journals at [Forschungsdaten.org](https://www.forschungsdaten.org/index.php/Data_Journals)
+* list of data journals at [GitHub repo data-journals](https://github.com/MaxiKi/data-journals/blob/main/data_journals_characteristics.csv)
+* list of data journals at [Wikidata](https://w.wiki/6$vi)
 
 #### Presenting data
 
