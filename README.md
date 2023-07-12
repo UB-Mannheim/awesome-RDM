@@ -14,6 +14,8 @@ In a wider sense research data management include also research information mana
 
 * [General resources](#general-resources)
     * [Registries](#registries)
+        * [Registries of Terminologies, Vocabularies, Ontologies](#registries-of-terminologies,-vocabularies,-ontologies)
+    * [Toolkits](#toolkits)
     * [Courses](#courses)
     * [Books](#books)
     * [Games](#games)
@@ -24,6 +26,7 @@ In a wider sense research data management include also research information mana
     * [Planning a project](#planning-a-project)
         * [Motivation for RDM](#motivation-for-rdm)
         * [Costing RDM](#costing-rdm)
+        * [Writing a project proposal and searching funding](#writing-a-project-proposal-and-searching-funding)
         * [Data management coordination](#data-management-coordination)
         * [Data management planning](#data-management-planning)
         * [Data policies](#data-policies)
@@ -38,19 +41,29 @@ In a wider sense research data management include also research information mana
         * [Data interpretation](#data-interpretation)
         * [Anonymising data](#anonymising-data)
         * [Data protection](#data-protection)
+        * [Data provenance](#data-provenance)
     * [Finishing a project](#finishing-a-project)
         * [Sharing data](#sharing-data)
         * [Publishing data](#publishing-data)
         * [Presenting data](#presenting-data)
         * [Data licensing](#data-licensing)
         * [Archiving data](#archiving-data)
-    * [Domain-specific resources](#domain-specific-resources)
-        * [Social and economic data](#social-and-economic-data)
-        * [Digital humanities](#digital-humanities)
 * [RDM for organizations](#rdm-for-organizations)
     * [How to develop RDM services](#how-to-develop-rdm-services)
+    * [How to choose an RDM repository](#how-to-choose-an-rdm-repository)
     * [Persistent identifiers](#persistent-identifiers)
+* [Discipline-specific RDM](#discipline-specific-rdm)
+    * [Social and economic data](#social-and-economic-data)
+    * [Digital Humanities](#digital-humanities)
+* [Discipline-specific tools](#discipline-specific-tools)
+    * [Digital Humanities and Social Sciences](#digital-humanities-and-social-sciences)
 * [Discipline-specific repositories](#discipline-specific-repositories)
+    * [Digital editions](#digital-editions)
+* [Domain-specific NFDI consortia](#domain-specific-nfdi-consortia)
+    * [NFDI consortia in Humanities and Social Sciences](nfdi-consortia-in-humanities-and-social-sciences)
+    * [NFDI consortia in Engineering Sciences](nfdi-consortia-in-engineering-sciences)
+    * [NFDI consortia in Life Sciences](nfdi-consortia-in-life-sciences)
+    * [NFDI consortia in Natural Sciences](nfdi-consortia-in-natural-sciences)
 
 ## General resources
 
@@ -61,6 +74,14 @@ In a wider sense research data management include also research information mana
 * [Data Management Skillbuilding Hub](https://dataoneorg.github.io/Education/) is a repository for open educational resources regarding data management
 * [FAIRsharing](https://fairsharing.org) is a curated, informative and educational resource on data and metadata standards, inter-related to databases and data policies
 * [re3data](https://www.re3data.org) is a registry of research data repositories
+
+#### Registries of Terminologies, Vocabularies, Ontologies
+
+* [BARTOC registry of terminology registries](https://bartoc.org/registries)
+* [The Basel Register of Thesauri, Ontologies and Classifications (BARTOC)](http://bartoc.org) includes all types of KOS in any format, across all subject areas. 
+* [FAIRsharing](https://fairsharing.org) is a curated, informative and educational resource on data and metadata standards, inter-related to databases and data policies
+* [Linked Open Vocabularies (LOV)](https://lov.okfn.org/dataset/lov) is a directory of RDF vocabularies 
+* [Linked Data Catalogue](http://linkeddatacatalog.dws.informatik.uni-mannheim.de/dataset)
 
 ### Toolkits
 
@@ -124,6 +145,7 @@ In a wider sense research data management include also research information mana
 * [The FAIR Cookbook](https://faircookbook.elixir-europe.org) [[git](https://github.com/FAIRplus/the-fair-cookbook)]
 * [Three-point FAIRification Framework "How to go FAIR"](https://www.go-fair.org/how-to-go-fair) at go-FAIR.org
 * [FAIR Maturity Indicators and Tools](https://github.com/FAIRMetrics/Metrics)
+* [FAIR Data Week at Uni Mannheim](https://github.com/UB-Mannheim/FAIR-Data-Week)
 
 ### Research data centers
 
@@ -156,6 +178,9 @@ Check out research data center at your university. They will guide you in RDM fo
 
 #### Writing a project proposal and searching funding
 
+* [Tips for your proposal by DFG](https://www.dfg.de/en/research_funding/proposal_funding_process/individual_grants_programmes/tips_proposals/index.html)
+* [Planning and Writing a Grant Proposal: The Basics](https://writing.wisc.edu/handbook/assignments/grants-2) by The Writing Center at University of Wisconsin – Madison 
+
 #### Data management coordination
 
 It makes sense only in big research projects.
@@ -173,6 +198,8 @@ It makes sense only in big research projects.
 * [Creating a data management plan (DMP) document](https://help.osf.io/article/144-creating-a-data-management-plan-dmp-document) by OSF
 
 #### Data policies
+
+* [Data Policies at Forschungsdaten.org](https://www.forschungsdaten.org/index.php/Data_Policies)
 
 #### Reusing data
 
@@ -200,41 +227,88 @@ Check quality of the data. Check licenses. If you reuse data, cite it.
 
 #### Collecting data
 
-* [Data collecting](https://rdmkit.elixir-europe.org/collecting) in RDMkit
+The focus here on:
+* Reusing existing data
+* Collecting new data
 
-Reusing existing data
-Collecting new data
+General info on collecting data
+* [Collecting data](https://rdmkit.elixir-europe.org/collecting) in RDMkit
+
+Lists of data sources:
+* [10 Great Places to Find Free Datasets for Your Next Project](https://careerfoundry.com/en/blog/data-analytics/where-to-find-free-datasets)
+* [21 Places to Find Free Datasets for Data Science Projects](https://careers.uw.edu/blog/2021/10/05/21-places-to-find-free-datasets-for-data-science-projects-shared-article-from-dataquest)
+
+Registries of data repositories:
+* [FAIRsharing](https://fairsharing.org) is a curated, informative and educational resource on data and metadata standards, inter-related to databases and data policies
+* [re3data](https://www.re3data.org) is a registry of research data repositories
+
+Metadata and data portals:
+* [Kaggle](https://www.kaggle.com/datasets)
+* [Google Dataset Search](https://datasetsearch.research.google.com)
+* [The official portal for European data](https://data.europa.eu)
+
+Methods of collecting data:
+* [7 Data Collection Methods in Business Analytics](https://online.hbs.edu/blog/post/data-collection-methods) by Harvard Business School
 
 #### Organizing data
 
 * [Data organization](https://rdmkit.elixir-europe.org/data_organisation) in RDMkit
-
-File naming
-
-File versioning
-
-Folder structure
+* [Folder structure, file names, and versioning](https://snd.gu.se/en/manage-data/organise/folder-structure-filenames-versioning) by Swedish National Data Service
+* [File Naming and Versioning](https://researchdata.wisc.edu/file-naming-and-versioning)
+* [Naming files and folders](https://www.imperial.ac.uk/research-and-innovation/support-for-staff/scholarly-communication/research-data-management/organising-and-describing-data/naming-files-and-folders) by Imperial College London
+* [File Naming Conventions & Version Control](https://records.princeton.edu/records-management-manual/file-naming-conventions-version-control)
+* [File Naming Conventions: simple rules save time and effort](https://www.abdn.ac.uk/staffnet/documents/policy-zone-information-policies/File%20Naming%20Conventions%20July%202017.pdf)
 
 #### Data storage
 
 Separate storage for sensitive data
 
+* [Data Storage & Backup](https://libguides.libraries.wsu.edu/rdmlibguide/datastorage)
+* [5 Research Data Storage Problems (and Tips) in Research Data Management](https://www.eudat.eu/news/5-research-data-storage-problems-and-tips-in-research-data-management)
+
 #### Data backup
+
+* [Data backups 101: A complete guide for 2023](https://us.norton.com/blog/how-to/data-backup)
+* [Data Backup Strategies for Your PhD/Research Data](https://www.researchvoyage.com/data-backup-research-data)
+* [Backup, Storage & Security](https://guides.library.pdx.edu/c.php?g=318088&p=2185650)
 
 #### Cleaning data
 
+* [The Ultimate Guide to Data Cleaning](https://towardsdatascience.com/the-ultimate-guide-to-data-cleaning-3969843991d4) by Omar Elgabry
+* [What Is Data Cleaning and Why Does It Matter?](https://careerfoundry.com/en/blog/data-analytics/what-is-data-cleaning) by Will Hillier
+* [Data cleaning tutorial at Kaggle](https://www.kaggle.com/learn/data-cleaning)
+* [Top ten ways to clean your data from Microsoft](https://support.microsoft.com/en-au/office/top-ten-ways-to-clean-your-data-2844b620-677c-47a7-ac3e-c2e157d1db19)
+
 #### Data exploration
 
+* [15 Data Exploration techniques to go from Data to Insights](https://towardsdatascience.com/15-data-exploration-techniques-to-go-from-data-to-insights-93f66e6805df)
+* [Comprehensive data exploration with Python](https://www.kaggle.com/code/pmarcelino/comprehensive-data-exploration-with-python)
+* [11 Open Source Data Exploration Tools You Need to Know in 2023](https://opendatascience.com/11-open-source-data-exploration-tools-you-need-to-know-in-2023)
+* [Data Exploration in R (9 Examples) | Exploratory Analysis & Visualization](https://statisticsglobe.com/data-exploration-r)
+
 #### Data interpretation
+* [Data Interpretation](https://unacademy.com/content/ssc/study-material/mathematics/data-interpretation/) by Unacademy
+* [Data Interpretation: Method, Types, Tips with Solved Examples](https://testbook.com/maths/data-interpretation) by Testbook
+* [Basic data interpretation](https://www.port.ac.uk/student-life/help-and-advice/study-skills/written-assignments/basic-data-interpretation) by University of Portsmouth
 
 #### Anonymising data
 
-Data Masking
-Pseudonimisation
-Aggregation
-Derived Data
+* [Data anonymization](https://en.wikipedia.org/wiki/Data_anonymization) at Wikipedia
+* [Anonymisation and Pseudonymisation](https://www.ucl.ac.uk/data-protection/guidance-staff-students-and-researchers/practical-data-protection-guidance-notices/anonymisation-and) at University College London
+* [Anonymising quantitative data](https://ukdataservice.ac.uk/learning-hub/research-data-management/anonymisation/anonymising-quantitative-data) by UK Data Service
+* [Anonymisation and pseudonymisation](https://www.dataprotection.ie/en/dpc-guidance/anonymisation-pseudonymisation) at dataprotection.ie
+
+Topics:
+* Data Masking
+* Pseudonimisation
+* Aggregation
+* Derived Data
 
 #### Data protection
+
+* [Data Protection Notice for Research Funding from the German Research Foundation (DFG)](https://www.dfg.de/en/service/privacy_policy/research_funding/index.html)
+* [Germany - Data Protection Overview](https://www.dataguidance.com/notes/germany-data-protection-overview)
+* [Data protection in research](https://www.helmholtz.de/en/about-us/our-values/data-protection) by Helmholtz.de
 
 #### Data provenance
 
@@ -268,20 +342,23 @@ Data journals:
 
 * [License chooser](https://creativecommons.org/choose)
 * [RDA & CODATA Legal Interoperability Of Research Data: Principles And Implementation Guidelines](https://www.rd-alliance.org/rda-codata-legal-interoperability-research-data-principles-and-implementation-guidelines-now)
+* [How do I license my research data? OpenAIRE](https://www.openaire.eu/how-do-i-license-my-research-data)
+* [What is the most appropriate license for my data?](https://help.figshare.com/article/what-is-the-most-appropriate-licence-for-my-data)
+* [The Legal Side of Open Source](https://opensource.guide/legal)
+
+For restricted access data:
+* [Restrictive Licence Template](https://library.unimelb.edu.au/Digital-Scholarship/restrictive-licence-template)
+* [Data Availability Statements for Restricted Data](https://social-science-data-editors.github.io/guidance/DCAS_Restricted_data.html)
+* [Aligning restricted access data with FAIR: a systematic review](https://doi.org/10.7717%2Fpeerj-cs.1038)
 
 #### Archiving data
 
-### Domain-specific resources
-
-#### Social and economic data
-
-* [Auffinden-Zitieren-Dokumentieren](https://auffinden-zitieren-dokumentieren.de) by ZBW, GESIS and RatSWD
-
-#### Digital humanities
-
-* [Ending principles for digital humanities projects](https://endings.uvic.ca/principles.html)
+* [Research data archiving](https://en.wikipedia.org/wiki/Research_data_archiving) at Wikipedia
+* [On the Long-term Archiving of Research Data](https://doi.org/10.1007/s12021-023-09621-x)
 
 ## RDM for organizations
+
+* [LEARN Project resources](https://learn-rdm.eu/en/about) are resources to help Research Performing Institutions manage their research data
 
 ### How to develop RDM services
 
@@ -289,7 +366,7 @@ Data journals:
 * [How to Develop RDM Services - a guide for HEIs](https://www.dcc.ac.uk/guidance/how-guides/how-develop-rdm-services)
 * [The Realities of Research Data Management. Part Four: Sourcing and Scaling University RDM Services](https://www.oclc.org/content/dam/research/publications/2018/oclcresearch-rdm-part-four-sourcing-scaling.pdf)
 
-### How to choose a RDM repository
+### How to choose an RDM repository
 
 * [Evaluation of data repositories based on the FAIR Principles for IDCC 2017 practice paper](https://doi.org/10.4121/uuid:5146dd06-98e4-426c-9ae5-dc8fa65c549f)
 
@@ -298,27 +375,28 @@ Data journals:
 * [DOI registration agencies](https://www.doi.org/registration_agencies.html) is a list of current DOI registration agencies
 * [URN](https://www.iana.org/assignments/urn-namespaces/urn-namespaces.xml) is a list of all registered namespaces provided by the Internet Assigned Numbers Authority (IANA)
 
-### Others
+## Discipline-specific RDM
 
-* [LEARN Project resources](https://learn-rdm.eu/en/about) are resources to help Research Performing Institutions manage their research data
-* [Paper: Digitale Werkzeuge zur textbasierten Annotation, Korpusanalyse und Netzwerkanalyse in den Geisteswissenschaften](https://tuprints.ulb.tu-darmstadt.de/17850/1/Digital_Philology__Working_Papers_in_Digital_Philology_vol002.pdf] that sums up and explains different tools
+#### Social and economic data
+
+* [Auffinden-Zitieren-Dokumentieren](https://auffinden-zitieren-dokumentieren.de) by ZBW, GESIS and RatSWD
+
+#### Digital Humanities
+
+* [Ending principles for digital humanities projects](https://endings.uvic.ca/principles.html)
+* [Paper: Digitale Werkzeuge zur textbasierten Annotation, Korpusanalyse und Netzwerkanalyse in den Geisteswissenschaften](https://tuprints.ulb.tu-darmstadt.de/17850/1/Digital_Philology__Working_Papers_in_Digital_Philology_vol002.pdf) that sums up and explains different tools
 * [The Programming Historian](https://programminghistorian.org/) provides tutorials about DH topics for humanists 
 
-## Tools
+## Discipline-specific tools
+
+### Digital Humanities and Social Sciences
 
 * [OpenMethods.Dariah](https://openmethods.dariah.eu) is a list of digital humanities tools and methods
 * [CLARIN-D](https://www.clarin-d.net/de/) is a is a research infrastructure that helps researchers of Humanities, Cultural and Social Sciences with accessing, preparing and analysing of research data
-* [TAPoR](https://tapor.ca/tools) is a list of reasearch tools for text analysis
+* [TAPoR](https://tapor.ca/tools) is a list of research tools for text analysis
 * [SSH Open Market Place](https://marketplace.sshopencloud.eu/) is a place for resources for research in Social Sciences and Humanities
 * [BAS](https://clarin.phonetik.uni-muenchen.de/BASWebServices/interface) is a set of tools for speech sciences and technology
 * [TextGrid](https://textgrid.de/en/) is a virtual research environment for the humanities that is optimised for working with TEI-coded resources 
-
-## Registries of Terminologies, Vocabularies, Ontologies
-
-* [BARTOC registry of terminology registries](https://bartoc.org/registries)
-* [The Basel Register of Thesauri, Ontologies and Classifications (BARTOC)](http://bartoc.org) includes all types of KOS in any format, across all subject areas. 
-* [FAIRsharing](https://fairsharing.org) is a curated, informative and educational resource on data and metadata standards, inter-related to databases and data policies
-* [Linked Open Vocabularies (LOV)](https://lov.okfn.org/dataset/lov) is a directory of RDF vocabularies 
 
 ## Discipline-specific repositories
 
@@ -330,3 +408,45 @@ Data journals:
 * [ediarum](https://www.ediarum.org) is a software for creating and publishing digital editions
 * [KONDE - Kompetenzzentrum Digitale Edition](https://www.digitale-edition.at/context:konde) is a guideline to publish a digital edition
 * [Dig-Ed-Cat](https://dig-ed-cat.acdh.oeaw.ac.at/) is a Catalogue of Digital Editions
+
+### Domain-specific NFDI consortia
+
+There are 26 domain-specific [NFDI](https://www.nfdi.de) consortia aiming to ensure FAIR data in Germany.
+
+#### NFDI consortia in Humanities and Social Sciences
+
+* [BERD@NFDI](https://www.berd-nfdi.de): NFDI for Business, Economic and Related Data
+* [KonsortSWD](https://www.konsortswd.de/en/): Consortium for the Social, Educational, Behavioural and Economic Sciences
+* [NFDI4Culture](https://nfdi4culture.de): Consortium for Research Data on Material and Immaterial Cultural Heritage
+* [NFDI4Memory](https://4memory.de): The Consortium for the Historically Oriented Humanities
+* [NFDI4Objects](https://www.nfdi4objects.net): Research Data Infrastructure for the Material Remains of Human History
+* [Text+](https://www.text-plus.org): Language and text-based research data infrastructure
+
+#### NFDI consortia in Engineering Sciences
+
+* [NFDI4DataScience](https://www.nfdi4datascience.de): NFDI for Data Science and Artificial Intelligence
+* [NFDI4Energy](https://nfdi4energy.uol.de): National Research Data Infrastructure for Interdisciplinary Energy System Research
+* [NFDI4Ing](https://nfdi4ing.de): NFDI for Engineering Sciences
+* [NFDI-MatWerk](https://nfdi-matwerk.de): National Research Data Infrastructure for Materials Science and Materials Engineering
+* [NFDIxCS](https://nfdixcs.org): National Research Data Infrastructure for and with Computer Science
+
+#### NFDI consortia in Life Sciences
+
+* [DataPLANT](https://www.nfdi4plants.de): Plant research data
+* [FAIRagro](https://www.fairagro.net): FAIR Data Infrastructure for Agrosystems
+* [NFDI4Immuno](https://www.nfdi4immuno.de): National Research Data Infrastructure for Immunology
+* [GHGA](https://www.ghga.de): National Research Data Infrastructure for Immunologyv
+* [NFDI4Biodiversity](https://www.nfdi4biodiversity.org): Biodiversity, Ecology and Environmental Data
+* [NFDI4BIOIMAGE](https://nfdi4bioimage.de): National research data infrastructure for microscopy and bioimage analysis
+* [NFDI4Health](https://www.nfdi4health.de): NFDI personal health data
+* [NFDI4Microbiota](https://nfdi4microbiota.de): NFDI for Microbiota Research
+
+#### NFDI consortia in Natural Sciences
+
+* [DAPHNE4NFDI](https://www.daphne4nfdi.de): Data from PHoton and Neutron Experiments for NFDI
+* [FAIRmat](https://www.fairmat-nfdi.eu): FAIR Data Infrastructure for Condensed-Matter Physics and the Chemical Physics of Solids
+* [NFDI4Cat](https://nfdi4cat.org): NFDI for sciences related to catalysis
+* [MaRDI](https://www.mardi4nfdi.de): Mathematical Research Data Initiative
+* [NFDI4Chem](https://www.nfdi4chem.de): Chemistry consortium for the NFDI
+* [NFDI4Earth](https://www.nfdi4earth.de): NFDI Consortium Earth System Sciences
+* [PUNCH4NFDI](https://www.punch4nfdi.de): Particles, Universe, NuClei and Hadrons for the NFDI
