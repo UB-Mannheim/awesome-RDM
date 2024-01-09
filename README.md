@@ -234,9 +234,9 @@ You may also want to consider the data management standards in your own research
 - [DMP Wizard](https://www.clarin-d.net/de/aufbereiten/datenmanagementplan-entwickeln) by CLARIN-D, Humanities
 - [DMP template](https://www.parthenos-project.eu/portal/dmp) of the EU project PARTHENOS, Humanities
 
-Need some inspiration? You can check out examples of DMPs from successful research applications by checking out the Digital Curation Center (DCC) here and get an idea of what reviewers might be looking for here.
+Need some inspiration? You can check out examples of DMPs from successful research applications by checking out the Digital Curation Center (DCC) [here](https://www.dcc.ac.uk/resources/data-management-plans/guidance-examples) and get an idea of what reviewers might be looking for [here](https://scienceeurope.org/media/4brkxxe5/se_rdm_practical_guide_extended_final.pdf).
 
-Applying for funding outside of Germany? You can find out more information about DMP requirements for research funding applications abroad here.
+Applying for funding outside of Germany? You can find out more information about DMP requirements for research funding applications abroad [here](https://dmeg.cessda.eu/Data-Management-Expert-Guide/1.-Plan/European-diversity).
 
 For further information you can also check out the following:
 
