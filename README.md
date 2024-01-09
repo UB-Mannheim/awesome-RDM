@@ -188,7 +188,57 @@ It makes sense only in big research projects.
 
 * [Data management coordination](https://rdmkit.elixir-europe.org/dm_coordination) in RDMkit
 
-#### Data management planning
+#### Data Management Planning
+
+A Data Management Plan (DMP) describes how research data is handled before the project has commenced, ensuring the traceability of data during the project and beyond. DMPs are often required in a formalized form when submitting a funding application or during the project period, for example with Horizon Europe, ERC grants. The DFG also asks for information on Data Management, although this is not explicitly a DMP and the DFG.  
+ 
+A DMP typically contains the following elements: 
+
+- Data Description/Data Collection
+- Documentation and Data Quality
+- Storage and Backup
+- Legal and Ethical Requirements
+- Data Sharing and Archiving
+- Data Management, who and what?
+
+**DMPs and Research Funding in Germany**: 
+ 
+DMP requirements differ depending on the funding institution within Germany (see below). 
+
+| German Funding Institution                        | DMP Requirements                                                                                                                                                                                                                                                                                                                                                                         | DMP template?                             |   |   |   |   |   |   |   |
+|---------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------|---|---|---|---|---|---|---|
+| German Research Foundation (DFG)                  | Not explicitly a DMP, but information on data management is usually required in section 2.4 of the application. There are also some subject-specific and program-specific recommendations on how to handle research data in grant applications, but researchers are not obligated to go further than the general guidance provided. See DFG Guidelines on the Handling of Research Data. | Yes (unofficially).    |   |   |   |   |   |   |   |
+| Federal Ministry of Education and Research (BMBF) | There are no general requirements with regard to research data. The requirements are defined individually for each tender. See Federal Ministry of Education and Research.                                                                                                                                                                                                               | No                                        |   |   |   |   |   |   |   |
+| Volkswagen Foundation                             | Yes, it is a requirement for research funding from the Volkswagen Stiftung that applicants submit a DMP with their application for funding. See Volkswagen Stiftung Open Science Policy.                                                                                                                                                                                                 | Yes                                       |   |   |   |   |   |   |   |
+| Baden-Württemberg Stiftung                        | No                                                                                                                                                                                                                                                                                                                                                                                       | No                                        |   |   |   |   |   |   |   |
+| Fritz Thyssen Foundation                          | No                                                                                                                                                                                                                                                                                                                                                                                       | No                                        |   |   |   |   |   |   |   |
+| Hans Böckler Foundation                           | No                                                                                                                                                                                                                                                                                                                                                                                       | No                                        |   |   |   |   |   |   |   |
+|                                                  
+
+Adapted from CESSDA Training Team (2017 – 2022). CESSDA Data Management Expert Guide. Bergen, Norway: CESSDA ERIC. Table by: [CESSDA](https://dmeg.cessda.eu/Data-Management-Expert-Guide/1.-Plan/European-diversity)
+
+And Across Europe: 
+
+| Funding Institution             | DMP Requirements                                                                                                                                                                                                       | DMP Template |
+|---------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|
+| European Research Council (ERC) | Yes, applicants must submit a DMP after the first 6 months of the funding period and must continuously update the DMP if significant changes occur, see ERC, Open Science, Section 2. Research Data in Horizon Europe. | Yes          |
+| Horizon Europe                  | Yes, applicants must submit a DMP after the first 6 months of the funding period and must continuously update the DMP if significant changes occur, see Horizon Europe.                                                | Yes          |
+| European Science Foundation     | No                                                                                                                                                                                                                     | No           |
+
+
+You may also want to consider the data management standards in your own research field (e.g., Humanities, Social Sciences, Business and Economics) which might inform what you should include in your DMP, in which case, check out the following:
+
+- [Standardised Data Management Plan for Educational Research](https://www.forschungsdaten-bildung.de/stamp-nutzen) of the Research Data Education Network
+- Research Data Management in the Social, [Behavioral and Economic Sciences, Chapter 2](https://www.konsortswd.de/aktuelles/publikation/forschungsdatenmanagement-in-den-sozial-verhaltens-und-wirtschaftswissenschaften/)
+- [Guidelines for Effective Data Management Plans](https://www.icpsr.umich.edu/web/pages/datamanagement/dmp/index.html) of the Inter-university Consortium for Political and Social Research
+- [DMP Wizard](https://www.clarin-d.net/de/aufbereiten/datenmanagementplan-entwickeln) by CLARIN-D, Humanities
+- [DMP template](https://www.parthenos-project.eu/portal/dmp) of the EU project PARTHENOS, Humanities
+
+Need some inspiration? You can check out examples of DMPs from successful research applications by checking out the Digital Curation Center (DCC) here and get an idea of what reviewers might be looking for here.
+
+Applying for funding outside of Germany? You can find out more information about DMP requirements for research funding applications abroad here.
+
+For further information you can also check out the following:
 
 * [RDMO Research Data Management Organiser](https://rdmorganiser.github.io) is funded by DFG
 * [DMPonline](https://dmponline.dcc.ac.uk) is created by Digital Curation Centre (DCC), UK

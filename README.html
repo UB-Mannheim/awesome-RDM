@@ -1,0 +1,975 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.361">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>readme</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="README_files/libs/clipboard/clipboard.min.js"></script>
+<script src="README_files/libs/quarto-html/quarto.js"></script>
+<script src="README_files/libs/quarto-html/popper.min.js"></script>
+<script src="README_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="README_files/libs/quarto-html/anchor.min.js"></script>
+<link href="README_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="README_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="README_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="README_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="README_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+
+
+</head>
+
+<body class="fullcontent">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+
+<main class="content" id="quarto-document-content">
+
+
+
+<section id="awesome-rdm" class="level1">
+<h1>Awesome RDM</h1>
+<p>“Awesome Research Data Management” is a curated list of awesome RDM resources for researchers and organizations.</p>
+<section id="definitions" class="level2">
+<h2 class="anchored" data-anchor-id="definitions">Definitions</h2>
+<p>“<strong>Research data</strong> are objects that you use and produce during your research life cycle, encompassing datasets, software, code, workflow, models, figures, tables, images and videos, interviews, articles. Data are your research asset.” <a href="https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-data.html">The Turing Way / Guide for Reproducible Research / Research Data Management / Research Data</a></p>
+<p>**Research “data management** refers to the storage, access and preservation of data produced from a given investigation. Data management practices cover the entire lifecycle of the data, from planning the investigation to conducting it, and from backing up data as it is created and used to long term preservation of data deliverables after the research investigation has concluded. Specific activities and issues that fall within the category of data management include: File naming (the proper way to name computer files); data quality control and quality assurance; data access; data documentation (including levels of uncertainty); metadata creation and controlled vocabularies; data storage; data archiving and preservation; data sharing and reuse; data integrity; data security; data privacy; data rights; notebook protocols (lab or field).” <a href="https://codata.org/rdm-terminology/research-data-management">CODATA RDM-Terminology / RDM</a></p>
+<p>In a wider sense research data management include also research information management and research knowledge management.</p>
+</section>
+<section id="table-of-contents" class="level2">
+<h2 class="anchored" data-anchor-id="table-of-contents">Table of contents</h2>
+<ul>
+<li><a href="#general-resources">General resources</a>
+<ul>
+<li><a href="#registries">Registries</a>
+<ul>
+<li><a href="#registries-of-terminologies,-vocabularies,-ontologies">Registries of Terminologies, Vocabularies, Ontologies</a></li>
+</ul></li>
+<li><a href="#toolkits">Toolkits</a></li>
+<li><a href="#courses">Courses</a></li>
+<li><a href="#books">Books</a></li>
+<li><a href="#games">Games</a></li>
+<li><a href="#wikis">Wikis</a></li>
+<li><a href="#fair-principles">FAIR principles</a></li>
+<li><a href="#research-data-centers">Research data centers</a></li>
+</ul></li>
+<li><a href="#rdm-for-researchers">RDM for researchers</a>
+<ul>
+<li><a href="#planning-a-project">Planning a project</a>
+<ul>
+<li><a href="#motivation-for-rdm">Motivation for RDM</a></li>
+<li><a href="#costing-rdm">Costing RDM</a></li>
+<li><a href="#writing-a-project-proposal-and-searching-funding">Writing a project proposal and searching funding</a></li>
+<li><a href="#data-management-coordination">Data management coordination</a></li>
+<li><a href="#data-management-planning">Data management planning</a></li>
+<li><a href="#data-policies">Data policies</a></li>
+<li><a href="#reusing-data">Reusing data</a></li>
+</ul></li>
+<li><a href="#executing-a-project">Executing a project</a>
+<ul>
+<li><a href="#collecting-data">Collecting data</a></li>
+<li><a href="#organizing-data">Organizing data</a></li>
+<li><a href="#data-storage">Data storage</a></li>
+<li><a href="#data-backup">Data backup</a></li>
+<li><a href="#cleaning-data">Cleaning data</a></li>
+<li><a href="#data-exploration">Data exploration</a></li>
+<li><a href="#data-interpretation">Data interpretation</a></li>
+<li><a href="#anonymising-data">Anonymising data</a></li>
+<li><a href="#data-protection">Data protection</a></li>
+<li><a href="#data-provenance">Data provenance</a></li>
+</ul></li>
+<li><a href="#finishing-a-project">Finishing a project</a>
+<ul>
+<li><a href="#sharing-data">Sharing data</a></li>
+<li><a href="#publishing-data">Publishing data</a></li>
+<li><a href="#presenting-data">Presenting data</a></li>
+<li><a href="#data-licensing">Data licensing</a></li>
+<li><a href="#archiving-data">Archiving data</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#rdm-for-organizations">RDM for organizations</a>
+<ul>
+<li><a href="#how-to-develop-rdm-services">How to develop RDM services</a></li>
+<li><a href="#how-to-choose-an-rdm-repository">How to choose an RDM repository</a></li>
+<li><a href="#persistent-identifiers">Persistent identifiers</a></li>
+</ul></li>
+<li><a href="#discipline-specific-rdm">Discipline-specific RDM</a>
+<ul>
+<li><a href="#social-and-economic-data">Social and economic data</a></li>
+<li><a href="#digital-humanities">Digital Humanities</a></li>
+</ul></li>
+<li><a href="#discipline-specific-tools">Discipline-specific tools</a>
+<ul>
+<li><a href="#digital-humanities-and-social-sciences">Digital Humanities and Social Sciences</a></li>
+</ul></li>
+<li><a href="#discipline-specific-repositories">Discipline-specific repositories</a>
+<ul>
+<li><a href="#digital-editions">Digital editions</a></li>
+</ul></li>
+<li><a href="#domain-specific-nfdi-consortia">Domain-specific NFDI consortia</a>
+<ul>
+<li><a href="nfdi-consortia-in-humanities-and-social-sciences">NFDI consortia in Humanities and Social Sciences</a></li>
+<li><a href="nfdi-consortia-in-engineering-sciences">NFDI consortia in Engineering Sciences</a></li>
+<li><a href="nfdi-consortia-in-life-sciences">NFDI consortia in Life Sciences</a></li>
+<li><a href="nfdi-consortia-in-natural-sciences">NFDI consortia in Natural Sciences</a></li>
+</ul></li>
+</ul>
+</section>
+<section id="general-resources" class="level2">
+<h2 class="anchored" data-anchor-id="general-resources">General resources</h2>
+<section id="registries" class="level3">
+<h3 class="anchored" data-anchor-id="registries">Registries</h3>
+<ul>
+<li><a href="https://zenodo.org/communities/dcc-rdm-training-materials">Research data management (RDM) open training materials</a> ZENODO Community</li>
+<li><a href="https://dmtclearinghouse.esipfed.org">Data Management Training (DMT) Clearinghouse</a> is a registry for online learning resources focusing on RDM</li>
+<li><a href="https://dataoneorg.github.io/Education/">Data Management Skillbuilding Hub</a> is a repository for open educational resources regarding data management</li>
+<li><a href="https://fairsharing.org">FAIRsharing</a> is a curated, informative and educational resource on data and metadata standards, inter-related to databases and data policies</li>
+<li><a href="https://www.re3data.org">re3data</a> is a registry of research data repositories</li>
+</ul>
+<section id="registries-of-terminologies-vocabularies-ontologies" class="level4">
+<h4 class="anchored" data-anchor-id="registries-of-terminologies-vocabularies-ontologies">Registries of Terminologies, Vocabularies, Ontologies</h4>
+<ul>
+<li><a href="https://bartoc.org/registries">BARTOC registry of terminology registries</a></li>
+<li><a href="http://bartoc.org">The Basel Register of Thesauri, Ontologies and Classifications (BARTOC)</a> includes all types of KOS in any format, across all subject areas.</li>
+<li><a href="https://fairsharing.org">FAIRsharing</a> is a curated, informative and educational resource on data and metadata standards, inter-related to databases and data policies</li>
+<li><a href="https://lov.okfn.org/dataset/lov">Linked Open Vocabularies (LOV)</a> is a directory of RDF vocabularies</li>
+<li><a href="http://linkeddatacatalog.dws.informatik.uni-mannheim.de/dataset">Linked Data Catalogue</a></li>
+</ul>
+</section>
+</section>
+<section id="toolkits" class="level3">
+<h3 class="anchored" data-anchor-id="toolkits">Toolkits</h3>
+<ul>
+<li><a href="https://rdmkit.elixir-europe.org">Elixir RDMkit</a> is a RDM toolkit for Life Sciences [<a href="https://github.com/elixir-europe/rdmkit">git</a>]</li>
+<li><a href="https://www.jisc.ac.uk/guides/rdm-toolkit">JISC RDM Toolkit</a></li>
+<li><a href="https://guides.library.uwa.edu.au/RDMtoolkit">RDMtoolkit</a> of the library at the University of Western Australia</li>
+<li><a href="https://libraryguides.unh.edu/datamanagement">Data Management Toolkit @ UNH</a> at University of New Hampshire</li>
+<li><a href="https://www.fosteropenscience.eu/content/learn-toolkit-best-practice-research-data-management">LEARN Toolkit of Best Practice for RDM</a> by <a href="https://www.fosteropenscience.eu">fosteropenscience</a></li>
+<li><a href="https://guides.lib.unc.edu/researchdatatoolkit">Research Data Toolkit</a> at UNC library</li>
+</ul>
+</section>
+<section id="courses" class="level3">
+<h3 class="anchored" data-anchor-id="courses">Courses</h3>
+<ul>
+<li><a href="https://dmeg.cessda.eu/Data-Management-Expert-Guide">Data Management Expert Guide CESSDA</a> is an advanced guide designed by European experts for social science researchers</li>
+<li><a href="https://datasupport.researchdata.nl/en/">Essentials 4 Data Support</a> is an introductory course</li>
+<li><a href="https://mantra.ed.ac.uk">MANTRA Research Data Management Training</a> is a classic online course</li>
+<li><a href="https://datatree.org.uk/course">Datatree - Data Training Engaging End-users</a> is a course for research students and early career researchers in the environmental sciences.</li>
+<li><a href="https://www.coursera.org/learn/data-management">Research Data Management and Sharing</a> is a Coursera course by Helen Tibbo &amp; Sarah Jones</li>
+<li><a href="https://scienceparkstudygroup.github.io/research-data-management-lesson">Carpentries-style lesson on Research Data Management</a> [<a href="https://github.com/ScienceParkStudyGroup/research-data-management-lesson">git</a>]</li>
+<li><a href="https://scds.github.io/intro-rdm">McMaster RDM Webinars</a> [<a href="https://github.com/scds/intro-rdm">git</a>]</li>
+<li><a href="https://psychoinformatics-de.github.io/rdm-course">Research Data Management with DataLad</a> [<a href="https://github.com/psychoinformatics-de/rdm-course">git</a>]</li>
+<li><a href="https://griffithunilibrary.github.io/research-data-management/">RDM at Griffith Uni Library</a> is short guide for self paced RDM [<a href="https://github.com/GriffithUniLibrary/research-data-management">git</a>]</li>
+<li><a href="https://www.researchdatamanagement.ch">RDM E-Learning Platform</a> ist eine E-learning-Webseite zum Thema Forschungsdatenmanagement der HTW Chur und der HEG Genf</li>
+<li><a href="https://training.parthenos-project.eu/training-modules/">PARTHENOS training</a> is a set of training modules in digital humanities and research infrastructures
+<ul>
+<li><a href="http://training.parthenos-project.eu/sample-page/manage-improve-and-open-up-your-research-and-data/">Manage, improve and open up your research and data</a></li>
+</ul></li>
+<li><a href="https://www.fosteropenscience.eu/courses">FOSTER open science courses</a>
+<ul>
+<li><a href="https://www.fosteropenscience.eu/node/2328">Managing and Sharing Research Data</a> is an introductory course</li>
+</ul></li>
+<li><a href="https://data.blogs.bristol.ac.uk/bootcamp">Research data bootcamp</a> is a general online course from University of Bristol</li>
+<li><a href="https://commons.esipfed.org/datamanagementshortcourse">Data Management Short Course for Scientists</a> by the ESIP Federation in cooperation with NOAA and the Data Conservancy</li>
+<li><a href="https://www.ruhr-uni-bochum.de/researchdata/index.html">RDM Knowledge Base</a> by Uni Bochum</li>
+<li><a href="https://eudat.eu/training/research-data-management">EUDAT Training</a></li>
+<li><a href="https://www.eosc-pillar.eu/rdm-training-and-support-catalogue">EOSC-Pillar: RDM Training and support catalogue</a></li>
+<li><a href="https://librarycarpentry.org/lc-fair-research/">Library Carpentry: FAIR Data and Software</a> [<a href="https://github.com/LibraryCarpentry/lc-fair-research">git</a>]</li>
+<li><a href="https://rdmpromotion.rbind.io">Research Data Management Promotion Materials</a> [<a href="https://github.com/Bayquiri/RDM-promotion">git</a>]</li>
+</ul>
+</section>
+<section id="books" class="level3">
+<h3 class="anchored" data-anchor-id="books">Books</h3>
+<ul>
+<li><a href="https://the-turing-way.netlify.app/welcome.html">The Turing Way: a how to guide for reproducible data science</a> [<a href="https://github.com/alan-turing-institute/the-turing-way">git</a>]
+<ul>
+<li><a href="https://the-turing-way.netlify.app/reproducible-research/rdm.html">RDM chapter</a></li>
+</ul></li>
+<li><a href="https://www.openaire.eu/rdm-handbook">A Research Data Management Handbook OpenAIRE</a></li>
+<li><a href="https://www.organisatiegids.universiteitleiden.nl/binaries/content/assets/archeologie/organisatie/icto/rdm-handbook-fda.pdf">Research Data Management Handbook</a> by Leiden University Faculty of Archaeology</li>
+<li><a href="https://shop.elsevier.com/books/research-data-management-and-data-literacies/tibor/978-0-12-824475-3">Research Data Management and Data Literacies</a> by Koltay Tibor</li>
+<li><a href="https://www.routledge.com/The-Data-Book-Collection-and-Management-of-Research-Data/Zozus/p/book/9780367736088">The Data Book: Collection and Management of Research Data</a> by Meredith Zozus</li>
+<li><a href="https://responsibledata.io/resources/handbook">Hand-book of the modern development specialist</a> is a Complete, Illustrated Guide to Responsible Data Usage, Manners, and General Deportment</li>
+<li><a href="https://doi.org/10.1017/9781108990424">Data Management for Social Scientists</a> by Nils B. Weidmann</li>
+</ul>
+</section>
+<section id="games" class="level3">
+<h3 class="anchored" data-anchor-id="games">Games</h3>
+<ul>
+<li><a href="https://rdm-games.gitlab.io/rdm-adventure/">RDM Adventure game</a></li>
+<li><a href="https://sites.google.com/vu.nl/datahorror/home?pli=1">Data Horror Escape Room</a></li>
+<li><a href="https://forschungsdaten-thueringen.de/rdm-scarytales/articles/overview.html">Research Data Scarytales</a></li>
+<li><a href="https://sites.google.com/view/data-management-the-game/">Data Management: The Game</a></li>
+</ul>
+</section>
+<section id="wikis" class="level3">
+<h3 class="anchored" data-anchor-id="wikis">Wikis</h3>
+<ul>
+<li><a href="https://www.forschungsdaten.org">www.forschungsdaten.org</a></li>
+<li><a href="https://forschungsdaten.info">forschungsdaten.info</a></li>
+</ul>
+</section>
+<section id="fair-principles" class="level3">
+<h3 class="anchored" data-anchor-id="fair-principles">FAIR principles</h3>
+<ul>
+<li><a href="https://doi.org/10.1038/sdata.2016.18">The FAIR Guiding Principles for scientific data management and stewardship</a> is a classic paper on FAIR principles</li>
+<li><a href="https://www.go-fair.org/fair-principles">FAIR principles</a> at go-FAIR.org with detailed descriptions</li>
+<li><a href="https://faircookbook.elixir-europe.org">The FAIR Cookbook</a> [<a href="https://github.com/FAIRplus/the-fair-cookbook">git</a>]</li>
+<li><a href="https://www.go-fair.org/how-to-go-fair">Three-point FAIRification Framework “How to go FAIR”</a> at go-FAIR.org</li>
+<li><a href="https://github.com/FAIRMetrics/Metrics">FAIR Maturity Indicators and Tools</a></li>
+<li><a href="https://github.com/UB-Mannheim/FAIR-Data-Week">FAIR Data Week at Uni Mannheim</a></li>
+</ul>
+</section>
+<section id="research-data-centers" class="level3">
+<h3 class="anchored" data-anchor-id="research-data-centers">Research data centers</h3>
+<ul>
+<li><a href="https://www.forschungsdaten.org/index.php/FDM-Kontakte">List of RDC in Germany</a></li>
+</ul>
+</section>
+</section>
+<section id="rdm-for-researchers" class="level2">
+<h2 class="anchored" data-anchor-id="rdm-for-researchers">RDM for researchers</h2>
+<p><em>Use case:</em> a researcher wants to plan, run and finish a research project.</p>
+<section id="planning-a-project" class="level3">
+<h3 class="anchored" data-anchor-id="planning-a-project">Planning a project</h3>
+<section id="motivation-for-rdm" class="level4">
+<h4 class="anchored" data-anchor-id="motivation-for-rdm">Motivation for RDM</h4>
+<ul>
+<li><a href="https://dmeg.cessda.eu/Data-Management-Expert-Guide/1.-Plan/Benefits-of-data-management">Benefits of data management</a> by CESSDA</li>
+<li><a href="https://library.up.ac.za/c.php?g=356288&amp;p=2420384">Benefits of RDM</a> by UP</li>
+<li><a href="https://ub.fau.de/en/research/data-and-software-in-research/advantages-of-research-data-management">Advantages of research data management</a> by UB Erlangen-Nürnberg</li>
+<li><a href="https://www.st-andrews.ac.uk/research/support/open-research/research-data-management/working-with-data/benefits-of-good-data-management">Benefits of good data management</a> by the University of St Andrews</li>
+<li><a href="https://www.ub.tum.de/en/what-are-the-advantages-of-managing-research-data">What are the advantages of managing research data?</a> by UB TUM</li>
+<li><a href="https://libguides.ucd.ie/data/benefits">Benefits of Data Management</a> by UCDL</li>
+<li><a href="https://www.fu-berlin.de/en/sites/forschungsdatenmanagement/ueber-forschungsdaten/vorteile/index.html">Benefits of RDM</a> by FU Berlin</li>
+<li><a href="https://sco.library.emory.edu/research-data-management/open-data/benefits-research.html">Benefits of Open Data</a> by Emory Library</li>
+</ul>
+</section>
+<section id="costing-rdm" class="level4">
+<h4 class="anchored" data-anchor-id="costing-rdm">Costing RDM</h4>
+<p>Check out research data center at your university. They will guide you in RDM for free.</p>
+<ul>
+<li><a href="https://ukdataservice.ac.uk/app/uploads/costingtool.pdf">Data management costing tool and checklist</a> by UK Data Service</li>
+<li><a href="https://www.lcrdm.nl/files/lcrdm/2020-04/RDM%20and%20Costs_v20160218_EN.pdf">Guide on research data management costs</a> by LCRDM</li>
+<li><a href="https://www.openaire.eu/how-to-comply-to-h2020-mandates-rdm-costs">How to identify and assess RDM costs</a> is an OpenAIRE guide for H2020 grants</li>
+</ul>
+</section>
+<section id="writing-a-project-proposal-and-searching-funding" class="level4">
+<h4 class="anchored" data-anchor-id="writing-a-project-proposal-and-searching-funding">Writing a project proposal and searching funding</h4>
+<ul>
+<li><a href="https://www.dfg.de/en/research_funding/proposal_funding_process/individual_grants_programmes/tips_proposals/index.html">Tips for your proposal by DFG</a></li>
+<li><a href="https://writing.wisc.edu/handbook/assignments/grants-2">Planning and Writing a Grant Proposal: The Basics</a> by The Writing Center at University of Wisconsin – Madison</li>
+</ul>
+</section>
+<section id="data-management-coordination" class="level4">
+<h4 class="anchored" data-anchor-id="data-management-coordination">Data management coordination</h4>
+<p>It makes sense only in big research projects.</p>
+<ul>
+<li><a href="https://rdmkit.elixir-europe.org/dm_coordination">Data management coordination</a> in RDMkit</li>
+</ul>
+</section>
+<section id="data-management-planning" class="level4">
+<h4 class="anchored" data-anchor-id="data-management-planning">Data Management Planning</h4>
+<p>A Data Management Plan (DMP) describes how research data is handled before the project has commenced, ensuring the traceability of data during the project and beyond. DMPs are often required in a formalized form when submitting a funding application or during the project period, for example with Horizon Europe, ERC grants. The DFG also asks for information on Data Management, although this is not explicitly a DMP and the DFG.</p>
+<p>A DMP typically contains the following elements:</p>
+<ul>
+<li>Data Description/Data Collection</li>
+<li>Documentation and Data Quality</li>
+<li>Storage and Backup</li>
+<li>Legal and Ethical Requirements</li>
+<li>Data Sharing and Archiving</li>
+<li>Data Management, who and what?</li>
+</ul>
+<p><strong>DMPs and Research Funding in Germany</strong>:</p>
+<p>DMP requirements differ depending on the funding institution within Germany (see below).</p>
+<table class="table">
+<colgroup>
+<col style="width: 10%">
+<col style="width: 76%">
+<col style="width: 8%">
+<col style="width: 0%">
+<col style="width: 0%">
+<col style="width: 0%">
+<col style="width: 0%">
+<col style="width: 0%">
+<col style="width: 0%">
+<col style="width: 0%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>German Funding Institution</th>
+<th>DMP Requirements</th>
+<th>DMP template?</th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>German Research Foundation (DFG)</td>
+<td>Not explicitly a DMP, but information on data management is usually required in section 2.4 of the application. There are also some subject-specific and program-specific recommendations on how to handle research data in grant applications, but researchers are not obligated to go further than the general guidance provided. See DFG Guidelines on the Handling of Research Data.</td>
+<td>Yes (unofficially).</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Federal Ministry of Education and Research (BMBF)</td>
+<td>There are no general requirements with regard to research data. The requirements are defined individually for each tender. See Federal Ministry of Education and Research.</td>
+<td>No</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Volkswagen Foundation</td>
+<td>Yes, it is a requirement for research funding from the Volkswagen Stiftung that applicants submit a DMP with their application for funding. See Volkswagen Stiftung Open Science Policy.</td>
+<td>Yes</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Baden-Württemberg Stiftung</td>
+<td>No</td>
+<td>No</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Fritz Thyssen Foundation</td>
+<td>No</td>
+<td>No</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Hans Böckler Foundation</td>
+<td>No</td>
+<td>No</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Adapted from CESSDA Training Team (2017 – 2022). CESSDA Data Management Expert Guide. Bergen, Norway: CESSDA ERIC. Table by: <a href="https://dmeg.cessda.eu/Data-Management-Expert-Guide/1.-Plan/European-diversity">CESSDA</a></p>
+<p>And Across Europe:</p>
+<table class="table">
+<colgroup>
+<col style="width: 12%">
+<col style="width: 82%">
+<col style="width: 5%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Funding Institution</th>
+<th>DMP Requirements</th>
+<th>DMP Template</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>European Research Council (ERC)</td>
+<td>Yes, applicants must submit a DMP after the first 6 months of the funding period and must continuously update the DMP if significant changes occur, see ERC, Open Science, Section 2. Research Data in Horizon Europe.</td>
+<td>Yes</td>
+</tr>
+<tr class="even">
+<td>Horizon Europe</td>
+<td>Yes, applicants must submit a DMP after the first 6 months of the funding period and must continuously update the DMP if significant changes occur, see Horizon Europe.</td>
+<td>Yes</td>
+</tr>
+<tr class="odd">
+<td>European Science Foundation</td>
+<td>No</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+<p>You may also want to consider the data management standards in your own research field (e.g., Humanities, Social Sciences, Business and Economics) which might inform what you should include in your DMP, in which case, check out the following:</p>
+<ul>
+<li><a href="https://www.forschungsdaten-bildung.de/stamp-nutzen">Standardised Data Management Plan for Educational Research</a> of the Research Data Education Network</li>
+<li>Research Data Management in the Social, <a href="https://www.konsortswd.de/aktuelles/publikation/forschungsdatenmanagement-in-den-sozial-verhaltens-und-wirtschaftswissenschaften/">Behavioral and Economic Sciences, Chapter 2</a></li>
+<li><a href="https://www.icpsr.umich.edu/web/pages/datamanagement/dmp/index.html">Guidelines for Effective Data Management Plans</a> of the Inter-university Consortium for Political and Social Research</li>
+<li><a href="https://www.clarin-d.net/de/aufbereiten/datenmanagementplan-entwickeln">DMP Wizard</a> by CLARIN-D, Humanities</li>
+<li><a href="https://www.parthenos-project.eu/portal/dmp">DMP template</a> of the EU project PARTHENOS, Humanities</li>
+</ul>
+<p>Need some inspiration? You can check out examples of DMPs from successful research applications by checking out the Digital Curation Center (DCC) here and get an idea of what reviewers might be looking for here.</p>
+<p>Applying for funding outside of Germany? You can find out more information about DMP requirements for research funding applications abroad here.</p>
+<p>For further information you can also check out the following:</p>
+<ul>
+<li><a href="https://rdmorganiser.github.io">RDMO Research Data Management Organiser</a> is funded by DFG</li>
+<li><a href="https://dmponline.dcc.ac.uk">DMPonline</a> is created by Digital Curation Centre (DCC), UK</li>
+<li><a href="https://ds-wizard.org">Data Stewardship Wizard</a> is created by ELIXIR CZ and NL</li>
+<li><a href="https://dmptool.org">DMPTool</a> by CDL, USA</li>
+<li><a href="https://libereurope.eu/dmpcatalogue">Data Management Plan Catalogue</a> by the LIBER Research Data Management Working Group</li>
+<li><a href="https://www.scienceeurope.org/our-resources/practical-guide-to-the-international-alignment-of-research-data-management">Practical Guide to the International Alignment of Research Data Management</a> [<a href="https://doi.org/10.5281/zenodo.4915862">zenodo</a>]</li>
+<li><a href="https://help.osf.io/article/144-creating-a-data-management-plan-dmp-document">Creating a data management plan (DMP) document</a> by OSF</li>
+</ul>
+</section>
+<section id="data-policies" class="level4">
+<h4 class="anchored" data-anchor-id="data-policies">Data policies</h4>
+<ul>
+<li><a href="https://www.forschungsdaten.org/index.php/Data_Policies">Data Policies at Forschungsdaten.org</a></li>
+</ul>
+</section>
+<section id="reusing-data" class="level4">
+<h4 class="anchored" data-anchor-id="reusing-data">Reusing data</h4>
+<ul>
+<li><a href="https://rdmkit.elixir-europe.org/existing_data">Existing data</a> in RDMkit</li>
+<li><a href="https://www.ugent.be/en/research/datamanagement/before-research/data-reuse.htm">Reusing existing data</a> by Ghent University</li>
+</ul>
+<p>First, find it. * Search in a suitable data repository which you can find in <a href="#registries">Registries</a>. * Search at * <a href="https://search.datacite.org">DataCite</a> * <a href="https://explore.openaire.eu/search/find">OpenAIRE</a> * <a href="https://datasetsearch.research.google.com">Google Dataset Search</a> * Check the links in data papers: * list of data journals at <a href="https://www.forschungsdaten.org/index.php/Data_Journals">Forschungsdaten.org</a> * list of data journals at <a href="https://github.com/MaxiKi/data-journals/blob/main/data_journals_characteristics.csv">GitHub repo data-journals</a> * list of data journals at <a href="https://w.wiki/6$vi">Wikidata</a> * examples of data journals: 1. <a href="https://www.mdpi.com/journal/data">Data</a> by MDPI 2. <a href="https://www.nature.com/sdata">Scientific Data</a> by Nature 3. <a href="https://www.sciencedirect.com/journal/data-in-brief">Data in brief</a> by ScienceDirect</p>
+<p>Check quality of the data. Check licenses. If you reuse data, cite it.</p>
+</section>
+</section>
+<section id="executing-a-project" class="level3">
+<h3 class="anchored" data-anchor-id="executing-a-project">Executing a project</h3>
+<section id="collecting-data" class="level4">
+<h4 class="anchored" data-anchor-id="collecting-data">Collecting data</h4>
+<p>The focus here on: * Reusing existing data * Collecting new data</p>
+<p>General info on collecting data * <a href="https://rdmkit.elixir-europe.org/collecting">Collecting data</a> in RDMkit</p>
+<p>Lists of data sources: * <a href="https://careerfoundry.com/en/blog/data-analytics/where-to-find-free-datasets">10 Great Places to Find Free Datasets for Your Next Project</a> * <a href="https://careers.uw.edu/blog/2021/10/05/21-places-to-find-free-datasets-for-data-science-projects-shared-article-from-dataquest">21 Places to Find Free Datasets for Data Science Projects</a></p>
+<p>Registries of data repositories: * <a href="https://fairsharing.org">FAIRsharing</a> is a curated, informative and educational resource on data and metadata standards, inter-related to databases and data policies * <a href="https://www.re3data.org">re3data</a> is a registry of research data repositories</p>
+<p>Metadata and data portals: * <a href="https://www.kaggle.com/datasets">Kaggle</a> * <a href="https://datasetsearch.research.google.com">Google Dataset Search</a> * <a href="https://data.europa.eu">The official portal for European data</a></p>
+<p>Methods of collecting data: * <a href="https://online.hbs.edu/blog/post/data-collection-methods">7 Data Collection Methods in Business Analytics</a> by Harvard Business School</p>
+</section>
+<section id="organizing-data" class="level4">
+<h4 class="anchored" data-anchor-id="organizing-data">Organizing data</h4>
+<ul>
+<li><a href="https://rdmkit.elixir-europe.org/data_organisation">Data organization</a> in RDMkit</li>
+<li><a href="https://snd.gu.se/en/manage-data/organise/folder-structure-filenames-versioning">Folder structure, file names, and versioning</a> by Swedish National Data Service</li>
+<li><a href="https://researchdata.wisc.edu/file-naming-and-versioning">File Naming and Versioning</a></li>
+<li><a href="https://www.imperial.ac.uk/research-and-innovation/support-for-staff/scholarly-communication/research-data-management/organising-and-describing-data/naming-files-and-folders">Naming files and folders</a> by Imperial College London</li>
+<li><a href="https://records.princeton.edu/records-management-manual/file-naming-conventions-version-control">File Naming Conventions &amp; Version Control</a></li>
+<li><a href="https://www.abdn.ac.uk/staffnet/documents/policy-zone-information-policies/File%20Naming%20Conventions%20July%202017.pdf">File Naming Conventions: simple rules save time and effort</a></li>
+</ul>
+</section>
+<section id="data-storage" class="level4">
+<h4 class="anchored" data-anchor-id="data-storage">Data storage</h4>
+<p>Separate storage for sensitive data</p>
+<ul>
+<li><a href="https://libguides.libraries.wsu.edu/rdmlibguide/datastorage">Data Storage &amp; Backup</a></li>
+<li><a href="https://www.eudat.eu/news/5-research-data-storage-problems-and-tips-in-research-data-management">5 Research Data Storage Problems (and Tips) in Research Data Management</a></li>
+</ul>
+</section>
+<section id="data-backup" class="level4">
+<h4 class="anchored" data-anchor-id="data-backup">Data backup</h4>
+<ul>
+<li><a href="https://us.norton.com/blog/how-to/data-backup">Data backups 101: A complete guide for 2023</a></li>
+<li><a href="https://www.researchvoyage.com/data-backup-research-data">Data Backup Strategies for Your PhD/Research Data</a></li>
+<li><a href="https://guides.library.pdx.edu/c.php?g=318088&amp;p=2185650">Backup, Storage &amp; Security</a></li>
+</ul>
+</section>
+<section id="cleaning-data" class="level4">
+<h4 class="anchored" data-anchor-id="cleaning-data">Cleaning data</h4>
+<ul>
+<li><a href="https://towardsdatascience.com/the-ultimate-guide-to-data-cleaning-3969843991d4">The Ultimate Guide to Data Cleaning</a> by Omar Elgabry</li>
+<li><a href="https://careerfoundry.com/en/blog/data-analytics/what-is-data-cleaning">What Is Data Cleaning and Why Does It Matter?</a> by Will Hillier</li>
+<li><a href="https://www.kaggle.com/learn/data-cleaning">Data cleaning tutorial at Kaggle</a></li>
+<li><a href="https://support.microsoft.com/en-au/office/top-ten-ways-to-clean-your-data-2844b620-677c-47a7-ac3e-c2e157d1db19">Top ten ways to clean your data from Microsoft</a></li>
+</ul>
+</section>
+<section id="data-exploration" class="level4">
+<h4 class="anchored" data-anchor-id="data-exploration">Data exploration</h4>
+<ul>
+<li><a href="https://towardsdatascience.com/15-data-exploration-techniques-to-go-from-data-to-insights-93f66e6805df">15 Data Exploration techniques to go from Data to Insights</a></li>
+<li><a href="https://www.kaggle.com/code/pmarcelino/comprehensive-data-exploration-with-python">Comprehensive data exploration with Python</a></li>
+<li><a href="https://opendatascience.com/11-open-source-data-exploration-tools-you-need-to-know-in-2023">11 Open Source Data Exploration Tools You Need to Know in 2023</a></li>
+<li><a href="https://statisticsglobe.com/data-exploration-r">Data Exploration in R (9 Examples) | Exploratory Analysis &amp; Visualization</a></li>
+</ul>
+</section>
+<section id="data-interpretation" class="level4">
+<h4 class="anchored" data-anchor-id="data-interpretation">Data interpretation</h4>
+<ul>
+<li><a href="https://unacademy.com/content/ssc/study-material/mathematics/data-interpretation/">Data Interpretation</a> by Unacademy</li>
+<li><a href="https://testbook.com/maths/data-interpretation">Data Interpretation: Method, Types, Tips with Solved Examples</a> by Testbook</li>
+<li><a href="https://www.port.ac.uk/student-life/help-and-advice/study-skills/written-assignments/basic-data-interpretation">Basic data interpretation</a> by University of Portsmouth</li>
+</ul>
+</section>
+<section id="anonymising-data" class="level4">
+<h4 class="anchored" data-anchor-id="anonymising-data">Anonymising data</h4>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Data_anonymization">Data anonymization</a> at Wikipedia</li>
+<li><a href="https://www.ucl.ac.uk/data-protection/guidance-staff-students-and-researchers/practical-data-protection-guidance-notices/anonymisation-and">Anonymisation and Pseudonymisation</a> at University College London</li>
+<li><a href="https://ukdataservice.ac.uk/learning-hub/research-data-management/anonymisation/anonymising-quantitative-data">Anonymising quantitative data</a> by UK Data Service</li>
+<li><a href="https://www.dataprotection.ie/en/dpc-guidance/anonymisation-pseudonymisation">Anonymisation and pseudonymisation</a> at dataprotection.ie</li>
+</ul>
+<p>Topics: * Data Masking * Pseudonimisation * Aggregation * Derived Data</p>
+</section>
+<section id="data-protection" class="level4">
+<h4 class="anchored" data-anchor-id="data-protection">Data protection</h4>
+<ul>
+<li><a href="https://www.dfg.de/en/service/privacy_policy/research_funding/index.html">Data Protection Notice for Research Funding from the German Research Foundation (DFG)</a></li>
+<li><a href="https://www.dataguidance.com/notes/germany-data-protection-overview">Germany - Data Protection Overview</a></li>
+<li><a href="https://www.helmholtz.de/en/about-us/our-values/data-protection">Data protection in research</a> by Helmholtz.de</li>
+</ul>
+</section>
+<section id="data-provenance" class="level4">
+<h4 class="anchored" data-anchor-id="data-provenance">Data provenance</h4>
+<ul>
+<li><a href="https://rdmkit.elixir-europe.org/data_provenance">Data provenance</a> in RDMkit</li>
+</ul>
+</section>
+</section>
+<section id="finishing-a-project" class="level3">
+<h3 class="anchored" data-anchor-id="finishing-a-project">Finishing a project</h3>
+<p>The <a href="https://datacarpentry.org/rr-publication/01-publication">difference between sharing, publishing &amp; archiving</a> is: * sharing: any way of sharing information, could mean also emailing. It means also making research data available throughout the research lifecycle, especially during the active research phase, typically via cloud storage. * publishing: citable artifact, discoverable. * archiving: long-term preservation.</p>
+<section id="sharing-data" class="level4">
+<h4 class="anchored" data-anchor-id="sharing-data">Sharing data</h4>
+<p>There are many benefits to sharing data.</p>
+<p>You can share the data via GitHub</p>
+</section>
+<section id="publishing-data" class="level4">
+<h4 class="anchored" data-anchor-id="publishing-data">Publishing data</h4>
+<p>Data journals: * list of data journals at <a href="https://www.forschungsdaten.org/index.php/Data_Journals">Forschungsdaten.org</a> * list of data journals at <a href="https://github.com/MaxiKi/data-journals/blob/main/data_journals_characteristics.csv">GitHub repo data-journals</a> * list of data journals at <a href="https://w.wiki/6$vi">Wikidata</a></p>
+</section>
+<section id="presenting-data" class="level4">
+<h4 class="anchored" data-anchor-id="presenting-data">Presenting data</h4>
+<p>“from infographics to narrative reports, case studies and long form investigative articles, to graffiti or conceptual art”</p>
+</section>
+<section id="data-licensing" class="level4">
+<h4 class="anchored" data-anchor-id="data-licensing">Data licensing</h4>
+<ul>
+<li><a href="https://creativecommons.org/choose">License chooser</a></li>
+<li><a href="https://www.rd-alliance.org/rda-codata-legal-interoperability-research-data-principles-and-implementation-guidelines-now">RDA &amp; CODATA Legal Interoperability Of Research Data: Principles And Implementation Guidelines</a></li>
+<li><a href="https://www.openaire.eu/how-do-i-license-my-research-data">How do I license my research data? OpenAIRE</a></li>
+<li><a href="https://help.figshare.com/article/what-is-the-most-appropriate-licence-for-my-data">What is the most appropriate license for my data?</a></li>
+<li><a href="https://opensource.guide/legal">The Legal Side of Open Source</a></li>
+</ul>
+<p>For restricted access data: * <a href="https://library.unimelb.edu.au/Digital-Scholarship/restrictive-licence-template">Restrictive Licence Template</a> * <a href="https://social-science-data-editors.github.io/guidance/DCAS_Restricted_data.html">Data Availability Statements for Restricted Data</a> * <a href="https://doi.org/10.7717%2Fpeerj-cs.1038">Aligning restricted access data with FAIR: a systematic review</a></p>
+</section>
+<section id="archiving-data" class="level4">
+<h4 class="anchored" data-anchor-id="archiving-data">Archiving data</h4>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Research_data_archiving">Research data archiving</a> at Wikipedia</li>
+<li><a href="https://doi.org/10.1007/s12021-023-09621-x">On the Long-term Archiving of Research Data</a></li>
+</ul>
+</section>
+</section>
+</section>
+<section id="rdm-for-organizations" class="level2">
+<h2 class="anchored" data-anchor-id="rdm-for-organizations">RDM for organizations</h2>
+<ul>
+<li><a href="https://learn-rdm.eu/en/about">LEARN Project resources</a> are resources to help Research Performing Institutions manage their research data</li>
+</ul>
+<section id="how-to-develop-rdm-services" class="level3">
+<h3 class="anchored" data-anchor-id="how-to-develop-rdm-services">How to develop RDM services</h3>
+<ul>
+<li><a href="https://library.oapen.org/handle/20.500.12657/24568">Engaging Researchers with Data Management: The Cookbook</a> [<a href="https://library.oapen.org/bitstream/handle/20.500.12657/24568/9781783747993.pdf?sequence=1&amp;isAllowed=y">pdf</a>]</li>
+<li><a href="https://www.dcc.ac.uk/guidance/how-guides/how-develop-rdm-services">How to Develop RDM Services - a guide for HEIs</a></li>
+<li><a href="https://www.oclc.org/content/dam/research/publications/2018/oclcresearch-rdm-part-four-sourcing-scaling.pdf">The Realities of Research Data Management. Part Four: Sourcing and Scaling University RDM Services</a></li>
+</ul>
+</section>
+<section id="how-to-choose-an-rdm-repository" class="level3">
+<h3 class="anchored" data-anchor-id="how-to-choose-an-rdm-repository">How to choose an RDM repository</h3>
+<ul>
+<li><a href="https://doi.org/10.4121/uuid:5146dd06-98e4-426c-9ae5-dc8fa65c549f">Evaluation of data repositories based on the FAIR Principles for IDCC 2017 practice paper</a></li>
+</ul>
+</section>
+<section id="persistent-identifiers" class="level3">
+<h3 class="anchored" data-anchor-id="persistent-identifiers">Persistent Identifiers</h3>
+<ul>
+<li><a href="https://www.doi.org/registration_agencies.html">DOI registration agencies</a> is a list of current DOI registration agencies</li>
+<li><a href="https://www.iana.org/assignments/urn-namespaces/urn-namespaces.xml">URN</a> is a list of all registered namespaces provided by the Internet Assigned Numbers Authority (IANA)</li>
+</ul>
+</section>
+</section>
+<section id="discipline-specific-rdm" class="level2">
+<h2 class="anchored" data-anchor-id="discipline-specific-rdm">Discipline-specific RDM</h2>
+<section id="social-and-economic-data" class="level4">
+<h4 class="anchored" data-anchor-id="social-and-economic-data">Social and economic data</h4>
+<ul>
+<li><a href="https://auffinden-zitieren-dokumentieren.de">Auffinden-Zitieren-Dokumentieren</a> by ZBW, GESIS and RatSWD</li>
+</ul>
+</section>
+<section id="digital-humanities" class="level4">
+<h4 class="anchored" data-anchor-id="digital-humanities">Digital Humanities</h4>
+<ul>
+<li><a href="https://endings.uvic.ca/principles.html">Ending principles for digital humanities projects</a></li>
+<li><a href="https://tuprints.ulb.tu-darmstadt.de/17850/1/Digital_Philology__Working_Papers_in_Digital_Philology_vol002.pdf">Paper: Digitale Werkzeuge zur textbasierten Annotation, Korpusanalyse und Netzwerkanalyse in den Geisteswissenschaften</a> that sums up and explains different tools</li>
+<li><a href="https://programminghistorian.org/">The Programming Historian</a> provides tutorials about DH topics for humanists</li>
+</ul>
+</section>
+</section>
+<section id="discipline-specific-tools" class="level2">
+<h2 class="anchored" data-anchor-id="discipline-specific-tools">Discipline-specific tools</h2>
+<section id="digital-humanities-and-social-sciences" class="level3">
+<h3 class="anchored" data-anchor-id="digital-humanities-and-social-sciences">Digital Humanities and Social Sciences</h3>
+<ul>
+<li><a href="https://openmethods.dariah.eu">OpenMethods.Dariah</a> is a list of digital humanities tools and methods</li>
+<li><a href="https://www.clarin-d.net/de/">CLARIN-D</a> is a is a research infrastructure that helps researchers of Humanities, Cultural and Social Sciences with accessing, preparing and analysing of research data</li>
+<li><a href="https://tapor.ca/tools">TAPoR</a> is a list of research tools for text analysis</li>
+<li><a href="https://marketplace.sshopencloud.eu/">SSH Open Market Place</a> is a place for resources for research in Social Sciences and Humanities</li>
+<li><a href="https://clarin.phonetik.uni-muenchen.de/BASWebServices/interface">BAS</a> is a set of tools for speech sciences and technology</li>
+<li><a href="https://textgrid.de/en/">TextGrid</a> is a virtual research environment for the humanities that is optimised for working with TEI-coded resources</li>
+</ul>
+</section>
+</section>
+<section id="discipline-specific-repositories" class="level2">
+<h2 class="anchored" data-anchor-id="discipline-specific-repositories">Discipline-specific repositories</h2>
+<section id="digital-editions" class="level3">
+<h3 class="anchored" data-anchor-id="digital-editions">Digital editions</h3>
+<ul>
+<li><a href="https://v3.digitale-edition.de">Patrick Sahle’s Catalog of Digital Scholarly Editions</a></li>
+<li><a href="https://ride.i-d-e.de">RIDE – A review journal for digital editions and resources</a></li>
+<li><a href="https://teipublisher.com">TEI Publisher</a> is a software for publishing digital editions</li>
+<li><a href="https://www.ediarum.org">ediarum</a> is a software for creating and publishing digital editions</li>
+<li><a href="https://www.digitale-edition.at/context:konde">KONDE - Kompetenzzentrum Digitale Edition</a> is a guideline to publish a digital edition</li>
+<li><a href="https://dig-ed-cat.acdh.oeaw.ac.at/">Dig-Ed-Cat</a> is a Catalogue of Digital Editions</li>
+</ul>
+</section>
+<section id="domain-specific-nfdi-consortia" class="level3">
+<h3 class="anchored" data-anchor-id="domain-specific-nfdi-consortia">Domain-specific NFDI consortia</h3>
+<p>There are 26 domain-specific <a href="https://www.nfdi.de">NFDI</a> consortia aiming to ensure FAIR data in Germany.</p>
+<section id="nfdi-consortia-in-humanities-and-social-sciences" class="level4">
+<h4 class="anchored" data-anchor-id="nfdi-consortia-in-humanities-and-social-sciences">NFDI consortia in Humanities and Social Sciences</h4>
+<ul>
+<li><a href="https://www.berd-nfdi.de">BERD@NFDI</a>: NFDI for Business, Economic and Related Data</li>
+<li><a href="https://www.konsortswd.de/en/">KonsortSWD</a>: Consortium for the Social, Educational, Behavioural and Economic Sciences</li>
+<li><a href="https://nfdi4culture.de">NFDI4Culture</a>: Consortium for Research Data on Material and Immaterial Cultural Heritage</li>
+<li><a href="https://4memory.de">NFDI4Memory</a>: The Consortium for the Historically Oriented Humanities</li>
+<li><a href="https://www.nfdi4objects.net">NFDI4Objects</a>: Research Data Infrastructure for the Material Remains of Human History</li>
+<li><a href="https://www.text-plus.org">Text+</a>: Language and text-based research data infrastructure</li>
+</ul>
+</section>
+<section id="nfdi-consortia-in-engineering-sciences" class="level4">
+<h4 class="anchored" data-anchor-id="nfdi-consortia-in-engineering-sciences">NFDI consortia in Engineering Sciences</h4>
+<ul>
+<li><a href="https://www.nfdi4datascience.de">NFDI4DataScience</a>: NFDI for Data Science and Artificial Intelligence</li>
+<li><a href="https://nfdi4energy.uol.de">NFDI4Energy</a>: National Research Data Infrastructure for Interdisciplinary Energy System Research</li>
+<li><a href="https://nfdi4ing.de">NFDI4Ing</a>: NFDI for Engineering Sciences</li>
+<li><a href="https://nfdi-matwerk.de">NFDI-MatWerk</a>: National Research Data Infrastructure for Materials Science and Materials Engineering</li>
+<li><a href="https://nfdixcs.org">NFDIxCS</a>: National Research Data Infrastructure for and with Computer Science</li>
+</ul>
+</section>
+<section id="nfdi-consortia-in-life-sciences" class="level4">
+<h4 class="anchored" data-anchor-id="nfdi-consortia-in-life-sciences">NFDI consortia in Life Sciences</h4>
+<ul>
+<li><a href="https://www.nfdi4plants.de">DataPLANT</a>: Plant research data</li>
+<li><a href="https://www.fairagro.net">FAIRagro</a>: FAIR Data Infrastructure for Agrosystems</li>
+<li><a href="https://www.nfdi4immuno.de">NFDI4Immuno</a>: National Research Data Infrastructure for Immunology</li>
+<li><a href="https://www.ghga.de">GHGA</a>: National Research Data Infrastructure for Immunologyv</li>
+<li><a href="https://www.nfdi4biodiversity.org">NFDI4Biodiversity</a>: Biodiversity, Ecology and Environmental Data</li>
+<li><a href="https://nfdi4bioimage.de">NFDI4BIOIMAGE</a>: National research data infrastructure for microscopy and bioimage analysis</li>
+<li><a href="https://www.nfdi4health.de">NFDI4Health</a>: NFDI personal health data</li>
+<li><a href="https://nfdi4microbiota.de">NFDI4Microbiota</a>: NFDI for Microbiota Research</li>
+</ul>
+</section>
+<section id="nfdi-consortia-in-natural-sciences" class="level4">
+<h4 class="anchored" data-anchor-id="nfdi-consortia-in-natural-sciences">NFDI consortia in Natural Sciences</h4>
+<ul>
+<li><a href="https://www.daphne4nfdi.de">DAPHNE4NFDI</a>: Data from PHoton and Neutron Experiments for NFDI</li>
+<li><a href="https://www.fairmat-nfdi.eu">FAIRmat</a>: FAIR Data Infrastructure for Condensed-Matter Physics and the Chemical Physics of Solids</li>
+<li><a href="https://nfdi4cat.org">NFDI4Cat</a>: NFDI for sciences related to catalysis</li>
+<li><a href="https://www.mardi4nfdi.de">MaRDI</a>: Mathematical Research Data Initiative</li>
+<li><a href="https://www.nfdi4chem.de">NFDI4Chem</a>: Chemistry consortium for the NFDI</li>
+<li><a href="https://www.nfdi4earth.de">NFDI4Earth</a>: NFDI Consortium Earth System Sciences</li>
+<li><a href="https://www.punch4nfdi.de">PUNCH4NFDI</a>: Particles, Universe, NuClei and Hadrons for the NFDI</li>
+</ul>
+</section>
+</section>
+</section>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
