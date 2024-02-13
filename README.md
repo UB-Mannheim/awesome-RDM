@@ -301,6 +301,9 @@ Metadata and data portals:
 Methods of collecting data:
 * [7 Data Collection Methods in Business Analytics](https://online.hbs.edu/blog/post/data-collection-methods) by Harvard Business School
 
+Collecting metadata:
+* [User guide on collecting metadata](https://guides.library.stanford.edu/research-metadata) by Stanford University Libraries offers advice on gathering basic and semantic metadata for research data, including a list of some metadata standards, ontologies, and [creation tools](https://guides.library.stanford.edu/research-metadata/metadata-tools).
+  
 #### Organizing data
 
 * [Data organization](https://rdmkit.elixir-europe.org/data_organisation) in RDMkit
