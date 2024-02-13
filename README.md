@@ -117,6 +117,7 @@ In a wider sense research data management include also research information mana
 * [Research Data Management Promotion Materials](https://rdmpromotion.rbind.io) [[git](https://github.com/Bayquiri/RDM-promotion)]
 * [Data Steward Certificate Course](https://www.postgraduatecenter.at/en/programs/communication-media/data-steward/) (paid) at the Vienna University Library.
 * [openAIRE Workshops](https://www.openaire.eu/workshops) on various open access and open science topics.
+* [Essentials 4 Data Support](https://www.surf.nl/en/agenda/essentials-4-data-support-0) course by from Research Data Netherlands (RDNL).
 
 ### Books
 
