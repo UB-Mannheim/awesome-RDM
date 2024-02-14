@@ -115,6 +115,9 @@ In a wider sense research data management include also research information mana
 * [EOSC-Pillar: RDM Training and support catalogue](https://www.eosc-pillar.eu/rdm-training-and-support-catalogue)
 * [Library Carpentry: FAIR Data and Software](https://librarycarpentry.org/lc-fair-research/) [[git](https://github.com/LibraryCarpentry/lc-fair-research)]
 * [Research Data Management Promotion Materials](https://rdmpromotion.rbind.io) [[git](https://github.com/Bayquiri/RDM-promotion)]
+* [Data Steward Certificate Course](https://www.postgraduatecenter.at/en/programs/communication-media/data-steward/) (paid) at the Vienna University Library.
+* [openAIRE Workshops](https://www.openaire.eu/workshops) on various open access and open science topics.
+* [Essentials 4 Data Support](https://www.surf.nl/en/agenda/essentials-4-data-support-0) course by from Research Data Netherlands (RDNL).
 
 ### Books
 
@@ -301,6 +304,9 @@ Metadata and data portals:
 Methods of collecting data:
 * [7 Data Collection Methods in Business Analytics](https://online.hbs.edu/blog/post/data-collection-methods) by Harvard Business School
 
+Collecting metadata:
+* [User guide on collecting metadata](https://guides.library.stanford.edu/research-metadata) by Stanford University Libraries offers advice on gathering basic and semantic metadata for research data, including a list of some metadata standards, ontologies, and [creation tools](https://guides.library.stanford.edu/research-metadata/metadata-tools).
+  
 #### Organizing data
 
 * [Data organization](https://rdmkit.elixir-europe.org/data_organisation) in RDMkit
