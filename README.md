@@ -33,6 +33,7 @@ In a wider sense research data management include also research information mana
         * [Reusing data](#reusing-data)
     * [Executing a project](#executing-a-project)
         * [Collecting data](#collecting-data)
+        * [Creating metadata](#creating-metadata)
         * [Organizing data](#organizing-data)
         * [Data storage](#data-storage)
         * [Data backup](#data-backup)
@@ -304,8 +305,9 @@ Metadata and data portals:
 Methods of collecting data:
 * [7 Data Collection Methods in Business Analytics](https://online.hbs.edu/blog/post/data-collection-methods) by Harvard Business School
 
-Collecting metadata:
-* [User guide on collecting metadata](https://guides.library.stanford.edu/research-metadata) by Stanford University Libraries offers advice on gathering basic and semantic metadata for research data, including a list of some metadata standards, ontologies, and [creation tools](https://guides.library.stanford.edu/research-metadata/metadata-tools).
+#### Creating metadata
+
+* [User guide on creating metadata](https://guides.library.stanford.edu/research-metadata) by Stanford University Libraries offers advice on gathering basic and semantic metadata for research data, including a list of some metadata standards, ontologies, and [metadata creation tools](https://guides.library.stanford.edu/research-metadata/metadata-tools).
   
 #### Organizing data
 
