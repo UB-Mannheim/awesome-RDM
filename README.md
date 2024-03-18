@@ -151,6 +151,8 @@ In a wider sense research data management include also research information mana
 * [Three-point FAIRification Framework "How to go FAIR"](https://www.go-fair.org/how-to-go-fair) at go-FAIR.org
 * [FAIR Maturity Indicators and Tools](https://github.com/FAIRMetrics/Metrics)
 * [FAIR Data Week at Uni Mannheim](https://github.com/UB-Mannheim/FAIR-Data-Week)
+* ["FAIR Data Resources" group at Zotero](https://www.zotero.org/groups/2345721/fair_data_resources/) by Atif Latif
+* [awesome-fair GitHub repo](https://github.com/Materials-Data-Science-and-Informatics/awesome-fair) is a curated list of awesome stuff around the FAIR principles
 
 ### Research data centers
 
@@ -176,7 +178,7 @@ _Use case:_ a researcher wants to plan, run and finish a research project.
 #### Costing RDM
 
 Check out research data center at your university. They will guide you in RDM for free.
-
+* [Cost-benefit analysis for FAIR research data - Cost of not having FAIR research data](https://data.europa.eu/doi/10.2777/02999) by Directorate-General for Research and Innovation (European Commission) and PwC EU Services 
 * [Data management costing tool and checklist](https://ukdataservice.ac.uk/app/uploads/costingtool.pdf) by UK Data Service
 * [Guide on research data management costs](https://www.lcrdm.nl/files/lcrdm/2020-04/RDM%20and%20Costs_v20160218_EN.pdf) by LCRDM
 * [How to identify and assess RDM costs](https://www.openaire.eu/how-to-comply-to-h2020-mandates-rdm-costs) is an OpenAIRE guide for H2020 grants
