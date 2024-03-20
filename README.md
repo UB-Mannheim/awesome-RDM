@@ -426,6 +426,7 @@ For restricted access data:
 * [Engaging Researchers with Data Management: The Cookbook](https://library.oapen.org/handle/20.500.12657/24568) [[pdf](https://library.oapen.org/bitstream/handle/20.500.12657/24568/9781783747993.pdf?sequence=1&isAllowed=y)]
 * [How to Develop RDM Services - a guide for HEIs](https://www.dcc.ac.uk/guidance/how-guides/how-develop-rdm-services)
 * [The Realities of Research Data Management. Part Four: Sourcing and Scaling University RDM Services](https://www.oclc.org/content/dam/research/publications/2018/oclcresearch-rdm-part-four-sourcing-scaling.pdf)
+* [Ten simple rules for starting FAIR discussions in your community](https://doi.org/10.1371/journal.pcbi.1011668)
 
 ### How to choose an RDM repository
 
