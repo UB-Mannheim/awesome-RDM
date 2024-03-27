@@ -256,7 +256,15 @@ For further information you can also check out the following:
 
 #### Data policies
 
-* [Data Policies at Forschungsdaten.org](https://www.forschungsdaten.org/index.php/Data_Policies)
+(Research-) Data Policies are guidelines and recommendations for handling research data. They can be on different levels and from different actors, such as:
+* Data policies of third-party funders (e.g. [DFG](https://www.dfg.de/resource/blob/172112/4ea861510ea369157afb499e96fb359a/leitlinien-forschungsdaten-data.pdf) or [ERC](https://ec.europa.eu/research/participants/data/ref/h2020/other/hi/oa-pilot/h2020-hi-erc-oa-guide_en.pdf))
+* Data policies of publishers and/or journals (e.g. [American Economic Association](https://www.aeaweb.org/journals/data/data-code-policy), [Oxford University Press](https://academic.oup.com/pages/open-research/research-data), other policies can be found at [ReplicationWiki](http://replication.uni-goettingen.de/wiki/index.php/Journal_publication_policies#cite_note-1))
+* Discipline-specific guidelines (e.g. [DFG](https://www.dfg.de/de/grundlagen-rahmenbedingungen/grundlagen-und-prinzipien-der-foerderung/forschungsdaten/empfehlungen))
+* Guidelines of research institutions (e.g. [institute-specific](https://www.forschungsdaten.org/index.php/Data_Policies#Institutionelle_Policies) and [project-specific](https://www.forschungsdaten.org/index.php/Data_Policies#Forschungsdaten-Policies_f%C3%BCr_Forschungsprojekte))
+
+There are also tips, toolkits and other materials to help institutions and projects develop a data policy. For example, you can find materials from these projects:
+* [FDMentor](https://www.forschungsdaten.org/index.php/FDMentor): [Empfehlungen zur Erstellung institutioneller Forschungsdaten-Policies](https://zenodo.org/records/3333410), [Strategischer Leitfaden zur Etablierung einer institutionellen Forschungsdaten-Policy](https://zenodo.org/records/3333392), [RISE-DE](https://zenodo.org/records/3585556)
+* [LEARN](https://learn-rdm.eu/en/about/): [Toolkit of Best Practice for Research Data Management](https://learn-rdm.eu/en/dissemination/toolkit/)
 
 #### Reusing data
 
