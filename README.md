@@ -466,7 +466,8 @@ For restricted access data:
 * [TAPoR](https://tapor.ca/tools) is a list of research tools for text analysis
 * [SSH Open Market Place](https://marketplace.sshopencloud.eu/) is a place for resources for research in Social Sciences and Humanities
 * [BAS](https://clarin.phonetik.uni-muenchen.de/BASWebServices/interface) is a set of tools for speech sciences and technology
-* [TextGrid](https://textgrid.de/en/) is a virtual research environment for the humanities that is optimised for working with TEI-coded resources 
+* [TextGrid](https://textgrid.de/en/) is a virtual research environment for the humanities that is optimised for working with TEI-coded resources
+* [Awesome Digital Humanities](https://dh-tech.github.io/awesome-digital-humanities/) is a curated list of tools, resources, and services supporting the Digital Humanities
 
 ## Discipline-specific repositories
 
