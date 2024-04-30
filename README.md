@@ -43,6 +43,7 @@ In a wider sense research data management include also research information mana
         * [Anonymising data](#anonymising-data)
         * [Data protection](#data-protection)
         * [Data provenance](#data-provenance)
+        * [Legal aspects](#legal-aspects)
     * [Finishing a project](#finishing-a-project)
         * [Sharing data](#sharing-data)
         * [Publishing data](#publishing-data)
@@ -382,6 +383,12 @@ Topics:
 #### Data provenance
 
 * [Data provenance](https://rdmkit.elixir-europe.org/data_provenance) in RDMkit
+
+#### Legal aspects
+
+* [FAIRmat Guide to Legal Aspects in Research Data Management](https://doi.org/10.5281/zenodo.11083303)
+* [Research Data Management - Legal and Practical Aspects](https://doi.org/10.5281/zenodo.6841070) by Anja Perry, & Jan-Ocko Heuer (2022, Juli 15)
+* [Research Data Management - Legal Aspects](https://doi.org/10.5281/zenodo.3349706) by Maurice Schleußinger (2019, Juli 24)
 
 ### Finishing a project
 
