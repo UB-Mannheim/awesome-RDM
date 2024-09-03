@@ -475,6 +475,7 @@ For restricted access data:
 * [BAS](https://clarin.phonetik.uni-muenchen.de/BASWebServices/interface) is a set of tools for speech sciences and technology
 * [TextGrid](https://textgrid.de/en/) is a virtual research environment for the humanities that is optimised for working with TEI-coded resources
 * [Awesome Digital Humanities](https://dh-tech.github.io/awesome-digital-humanities/) is a curated list of tools, resources, and services supporting the Digital Humanities
+* [DigEdTnT: Digital Edition Creation Pipelines: Tools and Transitions](https://digedtnt.github.io/) provides tool and workflow descriptions, workshops and online seminars on tools for annotating and publishing digital editions in the TEI format. The web pages include information on [FromThePage](https://digedtnt.github.io/fromthepage/), [Transkribus](https://digedtnt.github.io/transkribus/), [ediarum](https://digedtnt.github.io/ediarum/), [OpenRefine](https://digedtnt.github.io/openrefine/), [FairCopy](https://digedtnt.github.io/faircopy/), [ba[sic]](https://digedtnt.github.io/basic/), [TEI Publisher](https://digedtnt.github.io/teipublisher/) and [ediarum.Web](https://digedtnt.github.io/ediarumWEB/).
 
 ## Discipline-specific repositories
 
