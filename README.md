@@ -22,6 +22,8 @@ In a wider sense research data management include also research information mana
     * [Wikis](#wikis)
     * [FAIR principles](#fair-principles)
     * [Research data centers](#research-data-centers)
+    * [Journals](#journals)
+    * [Conferences](#conferences)
 * [RDM for researchers](#rdm-for-researchers)
     * [Planning a project](#planning-a-project)
         * [Motivation for RDM](#motivation-for-rdm)
@@ -158,6 +160,21 @@ In a wider sense research data management include also research information mana
 ### Research data centers
 
 * [List of RDC in Germany](https://www.forschungsdaten.org/index.php/FDM-Kontakte)
+
+### Journals
+
+* [Bausteine Forschungsdatenmanagement](https://bausteine-fdm.de) about RDM only
+* [IngGrid Journal](https://www.inggrid.org) about data management in engineering science
+* [PLOS ONE](https://journals.plos.org/plosone/) interdisciplinary Open-Access-Journal
+* [International Journal of Digital Curation](http://www.ijdc.net/index) about digital curation and data management
+
+### Conferences
+* [E-Science-Tage](https://e-science-tage.de/en)
+* [IDCC (Digital Curation Centre)](https://www.dcc.ac.uk/events/idcc)
+* [Research Data Alliance (RDA) Plenary](https://www.rd-alliance.org/plenaries/)
+* [RDA DE Tagung](https://www.rda-deutschland.de/events)
+* [Open Science Conference](https://www.open-science-conference.eu/)
+* [FDM-Kalender von forschungsdaten.info](https://forschungsdaten.info/kalender-index/)
 
 ## RDM for researchers
 
