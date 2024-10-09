@@ -271,7 +271,10 @@ For further information you can also check out the following:
 * [Data Management Plan Catalogue](https://libereurope.eu/dmpcatalogue) by the LIBER Research Data Management Working Group
 * [Practical Guide to the International Alignment of Research Data Management](https://www.scienceeurope.org/our-resources/practical-guide-to-the-international-alignment-of-research-data-management) [[zenodo](https://doi.org/10.5281/zenodo.4915862)]
 * [Creating a data management plan (DMP) document](https://help.osf.io/article/144-creating-a-data-management-plan-dmp-document) by OSF
+
+Reviewing and evaluating DMPs:
 * [Science Europe Guidelines on the evaluation of DMPs](https://scienceeurope.org/media/22hpslfl/se-rdm-template-5-guidance-on-the-evaluation-of-data-management-plans.docx)
+* [Reviewing Data Management Plans](https://www.dcc.ac.uk/events/workshops/reviewing-data-management-plans)
 
 #### Data policies
 
