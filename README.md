@@ -367,6 +367,7 @@ Separate storage for sensitive data
 #### Data backup
 
 * [Data backups 101: A complete guide for 2023](https://us.norton.com/blog/how-to/data-backup)
+* [Raw data, backup and versioning: What you need to know to preserve your research data (2020)](https://doi.org/10.5281/zenodo.4041557) by Venkataraman, S. and Moura, P.
 * [Data Backup Strategies for Your PhD/Research Data](https://www.researchvoyage.com/data-backup-research-data)
 * [Backup, Storage & Security](https://guides.library.pdx.edu/c.php?g=318088&p=2185650)
 
