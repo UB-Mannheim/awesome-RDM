@@ -133,6 +133,7 @@ In a wider sense research data management include also research information mana
 * [The Data Book: Collection and Management of Research Data](https://www.routledge.com/The-Data-Book-Collection-and-Management-of-Research-Data/Zozus/p/book/9780367736088) by Meredith Zozus
 * [Hand-book of the modern development specialist](https://responsibledata.io/resources/handbook) is a Complete, Illustrated Guide to Responsible Data Usage, Manners, and General Deportment
 * [Data Management for Social Scientists](https://doi.org/10.1017/9781108990424) by Nils B. Weidmann
+* [The Research Data Management Workbook](https://caltechlibrary.github.io/RDMworkbook/) by Kristin Briney
 
 ### Games
 
