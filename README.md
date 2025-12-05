@@ -134,6 +134,7 @@ In a wider sense research data management include also research information mana
 * [Hand-book of the modern development specialist](https://responsibledata.io/resources/handbook) is a Complete, Illustrated Guide to Responsible Data Usage, Manners, and General Deportment
 * [Data Management for Social Scientists](https://doi.org/10.1017/9781108990424) by Nils B. Weidmann
 * [The Research Data Management Workbook](https://caltechlibrary.github.io/RDMworkbook/) by Kristin Briney
+* [The Open Data Handbook](https://opendatahandbook.org/) by the Open Knowledge Foundation provides "Guides, case studies and resources for government & civil society on the "what, why & how" of open data."
 
 ### Games
 
