@@ -204,7 +204,8 @@ Check out research data center at your university. They will guide you in RDM fo
 * [Cost-benefit analysis for FAIR research data - Cost of not having FAIR research data](https://data.europa.eu/doi/10.2777/02999) by Directorate-General for Research and Innovation (European Commission) and PwC EU Services 
 * [Data management costing tool and checklist](https://ukdataservice.ac.uk/app/uploads/costingtool.pdf) by UK Data Service
 * [Guide on research data management costs](https://www.lcrdm.nl/files/lcrdm/2020-04/RDM%20and%20Costs_v20160218_EN.pdf) by LCRDM
-* [How to identify and assess RDM costs](https://www.openaire.eu/how-to-comply-to-h2020-mandates-rdm-costs) is an OpenAIRE guide for H2020 grants
+* [Online tool for estimating RDM costs](https://www.openaire.eu/estimating-costs-rdm-tool) by OpenAIRE
+    * [Factsheet: "What will it cost to manage and share my data?"](https://doi.org/10.5281/zenodo.4548344) by OpenAIRE 
 
 #### Writing a project proposal and searching funding
 
