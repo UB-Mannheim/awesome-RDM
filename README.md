@@ -98,7 +98,8 @@ In a wider sense research data management include also research information mana
 
 ### Courses
 
-* [Data Management Expert Guide CESSDA](https://dmeg.cessda.eu/Data-Management-Expert-Guide) is an advanced guide designed by European experts for social science researchers
+* [CESSDA Data Management Expert Guide](https://dmeg.cessda.eu/Data-Management-Expert-Guide) is an advanced guide designed by European experts for social science researchers
+* [CESSDA Data Archiving Guide](https://dag.cessda.eu/) is designed to provide new employees at social science data archives with a general understanding of the work a data archive performs
 * [Essentials 4 Data Support](https://datasupport.researchdata.nl/en/) is an introductory course
 * [MANTRA Research Data Management Training](https://mantra.ed.ac.uk) is a classic online course
 * [Datatree - Data Training Engaging End-users](https://datatree.org.uk/course) is a course for research students and early career researchers in the environmental sciences.
