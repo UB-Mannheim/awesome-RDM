@@ -6,7 +6,7 @@
 
 "**Research data** are objects that you use and produce during your research life cycle, encompassing datasets, software, code, workflow, models, figures, tables, images and videos, interviews, articles. Data are your research asset." [The Turing Way / Guide for Reproducible Research / Research Data Management / Research Data](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-data.html)
 
-**Research "data management** refers to the storage, access and preservation of data produced from a given investigation. Data management practices cover the entire lifecycle of the data, from planning the investigation to conducting it, and from backing up data as it is created and used to long term preservation of data deliverables after the research investigation has concluded. Specific activities and issues that fall within the category of data management include: File naming (the proper way to name computer files); data quality control and quality assurance; data access; data documentation (including levels of uncertainty); metadata creation and controlled vocabularies; data storage; data archiving and preservation; data sharing and reuse; data integrity; data security; data privacy; data rights; notebook protocols (lab or field)." [CODATA RDM-Terminology / RDM](https://codata.org/rdm-terminology/research-data-management)
+**"Research data management** refers to the storage, access and preservation of data produced from a given investigation. Data management practices cover the entire lifecycle of the data, from planning the investigation to conducting it, and from backing up data as it is created and used to long term preservation of data deliverables after the research investigation has concluded. Specific activities and issues that fall within the category of data management include: File naming (the proper way to name computer files); data quality control and quality assurance; data access; data documentation (including levels of uncertainty); metadata creation and controlled vocabularies; data storage; data archiving and preservation; data sharing and reuse; data integrity; data security; data privacy; data rights; notebook protocols (lab or field)." [CODATA RDM-Terminology / RDM](https://codata.org/rdm-terminology/research-data-management)
 
 In a wider sense research data management include also research information management and research knowledge management.
 
@@ -14,12 +14,12 @@ In a wider sense research data management include also research information mana
 
 * [General resources](#general-resources)
     * [Registries](#registries)
-        * [Registries of Terminologies, Vocabularies, Ontologies](#registries-of-terminologies-vocabularies-ontologies)
+        * [Registries of Metadata Schemas, Terminologies, Vocabularies, Ontologies](#registries-of-metadata-schemas-terminologies-vocabularies-ontologies)
     * [Toolkits](#toolkits)
     * [Courses](#courses)
     * [Books](#books)
     * [Games](#games)
-    * [Wikis](#wikis)
+    * [Wikis and knowledge hubs](#wikis-and-knowledge-hubs)
     * [FAIR principles](#fair-principles)
     * [Research data centers](#research-data-centers)
     * [Journals](#journals)
@@ -80,12 +80,13 @@ In a wider sense research data management include also research information mana
 * [FAIRsharing](https://fairsharing.org) is a curated, informative and educational resource on data and metadata standards, inter-related to databases and data policies
 * [re3data](https://www.re3data.org) is a registry of research data repositories
 
-#### Registries of Terminologies, Vocabularies, Ontologies
+#### Registries of Metadata Schemas, Terminologies, Vocabularies, Ontologies
 
+* [RDA Metadata Standards Catalog](https://rdamsc.bath.ac.uk/) is a collaborative, open directory of metadata standards applicable to research data.
 * [BARTOC registry of terminology registries](https://bartoc.org/registries)
-* [The Basel Register of Thesauri, Ontologies and Classifications (BARTOC)](http://bartoc.org) includes all types of KOS in any format, across all subject areas. 
+* [The Basel Register of Thesauri, Ontologies and Classifications (BARTOC)](http://bartoc.org) includes all types of KOS in any format, across all subject areas.
 * [FAIRsharing](https://fairsharing.org) is a curated, informative and educational resource on data and metadata standards, inter-related to databases and data policies
-* [Linked Open Vocabularies (LOV)](https://lov.okfn.org/dataset/lov) is a directory of RDF vocabularies 
+* [Linked Open Vocabularies (LOV)](https://lov.okfn.org/dataset/lov) is a directory of RDF vocabularies
 * [Linked Data Catalogue](http://linkeddatacatalog.dws.informatik.uni-mannheim.de/dataset)
 
 ### Toolkits
@@ -147,10 +148,11 @@ In a wider sense research data management include also research information mana
    * English Translation: [Mission FDM: a card-based educational escape game on research data management](https://doi.org/10.5281/zenodo.14886444)
    * German Translation: [Mission FDM: Ein Escape Game zum Forschungsdatenmanagement](https://doi.org/10.5281/zenodo.15646264)
 
-### Wikis
+### Wikis and knowledge hubs
 
-* [www.forschungsdaten.org](https://www.forschungsdaten.org)
-* [forschungsdaten.info](https://forschungsdaten.info)
+* [forschungsdaten.info](https://forschungsdaten.info) is the central information platform for RDM in German-speaking countries.
+* [forschungsdaten.org](https://www.forschungsdaten.org) is a German RDM wiki that collaborates with forschungsdaten.info.
+* [RDM Compas](https://rdm-compas.org/en/homepage) is the knowledge hub of the NFDI consortium KonsortSWD, providing both general and data type specific information and training resources for RDM professionals (e.g., data stewards and data curators).
 
 ### FAIR principles
 
