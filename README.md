@@ -14,9 +14,11 @@ In a wider sense research data management include also research information mana
 
 * [General resources](#general-resources)
     * [Registries](#registries)
-        * [Registries of Metadata Schemas, Terminologies, Vocabularies, Ontologies](#registries-of-metadata-schemas-terminologies-vocabularies-ontologies)
+        * [Metadata Schemas, Terminologies, Vocabularies, Ontologies](#metadata-schemas-terminologies-vocabularies-ontologies)
     * [Toolkits](#toolkits)
     * [Courses](#courses)
+        * [Self-paced online courses](#self-paced-online-courses)
+        * [Certificate programs (paid)](#certificate-programs-paid)
     * [Books](#books)
     * [Games](#games)
     * [Wikis and knowledge hubs](#wikis-and-knowledge-hubs)
@@ -80,7 +82,7 @@ In a wider sense research data management include also research information mana
 * [FAIRsharing](https://fairsharing.org) is a curated, informative and educational resource on data and metadata standards, inter-related to databases and data policies
 * [re3data](https://www.re3data.org) is a registry of research data repositories
 
-#### Registries of Metadata Schemas, Terminologies, Vocabularies, Ontologies
+#### Metadata Schemas, Terminologies, Vocabularies, Ontologies
 
 * [RDA Metadata Standards Catalog](https://rdamsc.bath.ac.uk/) is a collaborative, open directory of metadata standards applicable to research data.
 * [BARTOC registry of terminology registries](https://bartoc.org/registries)
@@ -99,6 +101,8 @@ In a wider sense research data management include also research information mana
 
 ### Courses
 
+#### Self-paced online courses
+
 * [CESSDA Data Management Expert Guide](https://dmeg.cessda.eu/Data-Management-Expert-Guide) is an advanced guide designed by European experts for social science researchers
 * [CESSDA Data Archiving Guide](https://dag.cessda.eu/) is designed to provide new employees at social science data archives with a general understanding of the work a data archive performs
 * [Essentials 4 Data Support](https://datasupport.researchdata.nl/en/) is an introductory course
@@ -116,14 +120,18 @@ In a wider sense research data management include also research information mana
     * [Managing and Sharing Research Data](https://www.fosteropenscience.eu/node/2328) is an introductory course
 * [Research data bootcamp](https://data.blogs.bristol.ac.uk/bootcamp) is a general online course from University of Bristol
 * [Data Management Short Course for Scientists](https://commons.esipfed.org/datamanagementshortcourse) by the ESIP Federation in cooperation with NOAA and the Data Conservancy
-* [RDM Knowledge Base](https://www.ruhr-uni-bochum.de/researchdata/index.html) by Uni Bochum
 * [EUDAT Training](https://eudat.eu/training/research-data-management)
 * [EOSC-Pillar: RDM Training and support catalogue](https://www.eosc-pillar.eu/rdm-training-and-support-catalogue)
 * [Library Carpentry: FAIR Data and Software](https://librarycarpentry.org/lc-fair-research/) [[git](https://github.com/LibraryCarpentry/lc-fair-research)]
 * [Research Data Management Promotion Materials](https://rdmpromotion.rbind.io) [[git](https://github.com/Bayquiri/RDM-promotion)]
-* [Data Steward Certificate Course](https://www.postgraduatecenter.at/en/programs/communication-media/data-steward/) (paid) at the Vienna University Library.
 * [openAIRE Workshops](https://www.openaire.eu/workshops) on various open access and open science topics.
 * [Essentials 4 Data Support](https://www.surf.nl/en/agenda/essentials-4-data-support-0) course by from Research Data Netherlands (RDNL).
+
+#### Certificate programs (paid)
+
+* [Data Steward Certificate Course](https://www.postgraduatecenter.at/en/programs/communication-media/data-steward/) (paid) at the Vienna University Library
+* [Certificate of Advanced Studies Forschungsdatenmanagement](https://afww.uni-konstanz.de/de/forschungsdatenmanagement) (German, paid) by bwFDM and University of Konstanz
+* [Zertifikatskurs Forschungsdatenmanagement](https://www.th-koeln.de/weiterbildung/zertifikatskurs-forschungsdatenmanagement_82048.php) (German, paid) by fdm.NRW, ZB MED and ZBIW
 
 ### Books
 
@@ -153,6 +161,7 @@ In a wider sense research data management include also research information mana
 * [forschungsdaten.info](https://forschungsdaten.info) is the central information platform for RDM in German-speaking countries.
 * [forschungsdaten.org](https://www.forschungsdaten.org) is a German RDM wiki that collaborates with forschungsdaten.info.
 * [RDM Compas](https://rdm-compas.org/en/homepage) is the knowledge hub of the NFDI consortium KonsortSWD, providing both general and data type specific information and training resources for RDM professionals (e.g., data stewards and data curators).
+* [RDM Knowledge Base](https://www.ruhr-uni-bochum.de/researchdata/index.html) by Uni Bochum
 
 ### FAIR principles
 
