@@ -362,6 +362,7 @@ Methods of collecting data:
 ##### Creating metadata
 
 * [User guide on creating metadata](https://guides.library.stanford.edu/research-metadata) by Stanford University Libraries offers advice on gathering basic and semantic metadata for research data, including a list of some metadata standards, ontologies, and [metadata creation tools](https://guides.library.stanford.edu/research-metadata/metadata-tools).
+* [Free Codebook Generator](https://ersan.eu/MetaCo/free/codebook.html) turns a variable list pasted from Excel, or uploaded as .xlsx/CSV, into a printable codebook (variable names, descriptions, types, value labels). Runs entirely in the browser; no account, and the data is not uploaded.
   
 ##### Organizing data
 
