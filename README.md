@@ -319,6 +319,7 @@ First, find it.
     * [OpenAIRE](https://explore.openaire.eu/search/find)
     * [Google Dataset Search](https://datasetsearch.research.google.com)
 * Check the links in data papers:
+    * [Data Journals Dashboard](https://ub-mannheim.github.io/data-journals-dashboard/) by UB Mannheim
     * list of data journals at [Forschungsdaten.org](https://www.forschungsdaten.org/index.php/Data_Journals)
     * list of data journals at [GitHub repo data-journals](https://github.com/MaxiKi/data-journals/blob/main/data_journals_characteristics.csv)
     * list of data journals at [Wikidata](https://w.wiki/6$vi)
@@ -465,6 +466,7 @@ You can share the data via GitHub
 
 Data journals:
 
+* [Data Journals Dashboard](https://ub-mannheim.github.io/data-journals-dashboard/) by UB Mannheim
 * list of data journals at [Forschungsdaten.org](https://www.forschungsdaten.org/index.php/Data_Journals)
 * list of data journals at [GitHub repo data-journals](https://github.com/MaxiKi/data-journals/blob/main/data_journals_characteristics.csv)
 * list of data journals at [Wikidata](https://w.wiki/6$vi)
