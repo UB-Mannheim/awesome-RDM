@@ -133,7 +133,7 @@ In a wider sense research data management include also research information mana
 
 ### Books
 
-* [The Turing Way: a how to guide for reproducible data science](https://the-turing-way.netlify.app/welcome.html) [[git](https://github.com/alan-turing-institute/the-turing-way)]
+* [The Turing Way: a how to guide for reproducible data science](https://book.the-turing-way.org/) [[git](https://github.com/alan-turing-institute/the-turing-way)]
   * [RDM chapter](https://the-turing-way.netlify.app/reproducible-research/rdm.html)
 * [A Research Data Management Handbook OpenAIRE](https://www.openaire.eu/rdm-handbook)
 * [Research Data Management Handbook](https://www.organisatiegids.universiteitleiden.nl/binaries/content/assets/archeologie/organisatie/icto/rdm-handbook-fda.pdf) by Leiden University Faculty of Archaeology
