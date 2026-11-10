@@ -1,5 +1,7 @@
 # Awesome RDM
 
+[![Awesome](https://awesome.re/badge.svg)](https://github.com/sindresorhus/awesome#readme)
+
 "Awesome Research Data Management" is  a curated list of awesome RDM resources for researchers and organizations.
 
 ## Definitions
