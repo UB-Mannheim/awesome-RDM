@@ -27,8 +27,6 @@ env:
 on:
   schedule:  # Cron syntax is: "min hr day-of-month month day-of-week"
     - cron: 00 04 * * 1
-  push:
-    paths: ['**.md']
   workflow_dispatch:
 
 # The rest of this file should be left as-is ─────────────────────────
