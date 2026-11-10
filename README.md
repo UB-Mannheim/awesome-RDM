@@ -4,9 +4,9 @@
 
 ## Definitions
 
-"**Research data** are objects that you use and produce during your research life cycle, encompassing datasets, software, code, workflow, models, figures, tables, images and videos, interviews, articles. Data are your research asset." [The Turing Way / Guide for Reproducible Research / Research Data Management / Research Data](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-data.html)
+**Research "data** are objects that you use and produce during your research life cycle, encompassing datasets, software, code, workflow, models, figures, tables, images and videos, interviews, articles. Data are your research asset." [The Turing Way / Guide for Reproducible Research / Research Data Management / Research Data](https://book.the-turing-way.org/reproducible-research/rdm/rdm-data/)
 
-**"Research data management** refers to the storage, access and preservation of data produced from a given investigation. Data management practices cover the entire lifecycle of the data, from planning the investigation to conducting it, and from backing up data as it is created and used to long term preservation of data deliverables after the research investigation has concluded. Specific activities and issues that fall within the category of data management include: File naming (the proper way to name computer files); data quality control and quality assurance; data access; data documentation (including levels of uncertainty); metadata creation and controlled vocabularies; data storage; data archiving and preservation; data sharing and reuse; data integrity; data security; data privacy; data rights; notebook protocols (lab or field)." [CODATA RDM-Terminology / RDM](https://codata.org/rdm-terminology/research-data-management)
+**Research data management** refers to the "[s]torage, access and preservation of data created or collected in the course of research. Research data management practices cover the entire lifecycle of the data, from planning the investigation to conducting it, and from backing up data as it is created and used to long term preservation of data deliverables after the research investigation has concluded. Specific activities and issues that fall within the category of data management include: File naming (the proper way to name computer files); data quality control and quality assurance; data access; data documentation (including levels of uncertainty); metadata creation and controlled vocabularies; data storage; data archiving and preservation; data sharing and reuse; data integrity; data security; data privacy; data rights; notebook protocols (lab or field) as required." [CODATA RDM-Terminology / RDM](https://doi.org/10.5281/zenodo.10626170)
 
 In a wider sense research data management include also research information management and research knowledge management.
 
@@ -88,13 +88,12 @@ In a wider sense research data management include also research information mana
 * [BARTOC registry of terminology registries](https://bartoc.org/registries)
 * [The Basel Register of Thesauri, Ontologies and Classifications (BARTOC)](http://bartoc.org) includes all types of KOS in any format, across all subject areas.
 * [FAIRsharing](https://fairsharing.org) is a curated, informative and educational resource on data and metadata standards, inter-related to databases and data policies
-* [Linked Open Vocabularies (LOV)](https://lov.okfn.org/dataset/lov) is a directory of RDF vocabularies
+* [Linked Open Vocabularies (LOV)](https://lov.linkeddata.es/dataset/vocabs) is a directory of RDF vocabularies
 * [Linked Data Catalogue](http://linkeddatacatalog.dws.informatik.uni-mannheim.de/dataset)
 
 ### Toolkits
 
 * [Elixir RDMkit](https://rdmkit.elixir-europe.org) is a RDM toolkit for Life Sciences [[git](https://github.com/elixir-europe/rdmkit)]
-* [JISC RDM Toolkit](https://www.jisc.ac.uk/guides/rdm-toolkit)
 * [RDMtoolkit](https://guides.library.uwa.edu.au/RDMtoolkit) of the library at the University of Western Australia
 * [Data Management Toolkit @ UNH](https://libraryguides.unh.edu/datamanagement) at University of New Hampshire
 * [Research Data Toolkit](https://guides.lib.unc.edu/researchdatatoolkit) at UNC library
@@ -105,7 +104,7 @@ In a wider sense research data management include also research information mana
 
 * [CESSDA Data Management Expert Guide](https://dmeg.cessda.eu/Data-Management-Expert-Guide) is an advanced guide designed by European experts for social science researchers
 * [CESSDA Data Archiving Guide](https://dag.cessda.eu/) is designed to provide new employees at social science data archives with a general understanding of the work a data archive performs
-* [Essentials 4 Data Support](https://datasupport.researchdata.nl/en/) is an introductory course
+* [Essentials 4 Data Support](https://researchdata.nl/en/about-training/essentials-4-data-support/) is an introductory course
 * [MANTRA Research Data Management Training](https://mantra.ed.ac.uk) is a classic online course
 * [Datatree - Data Training Engaging End-users](https://datatree.org.uk/course) is a course for research students and early career researchers in the environmental sciences.
 * [Research Data Management and Sharing](https://www.coursera.org/learn/data-management) is a Coursera course by Helen Tibbo & Sarah Jones
@@ -114,18 +113,17 @@ In a wider sense research data management include also research information mana
 * [Research Data Management with DataLad](https://psychoinformatics-de.github.io/rdm-course) [[git](https://github.com/psychoinformatics-de/rdm-course)]
 * [RDM at Griffith Uni Library](https://griffithunilibrary.github.io/research-data-management/) is short guide for self paced RDM [[git](https://github.com/GriffithUniLibrary/research-data-management)]
 * [RDM E-Learning Platform](https://www.researchdatamanagement.ch) ist eine E-learning-Webseite zum Thema Forschungsdatenmanagement der HTW Chur und der HEG Genf
-* [PARTHENOS training](https://training.parthenos-project.eu/training-modules/) is a set of training modules in digital humanities and research infrastructures
-    * [Manage, improve and open up your research and data](http://training.parthenos-project.eu/sample-page/manage-improve-and-open-up-your-research-and-data/)
-* [FOSTER open science courses](https://www.fosteropenscience.eu/courses)
-    * [Managing and Sharing Research Data](https://www.fosteropenscience.eu/node/2328) is an introductory course
+* [PARTHENOS training](https://web.archive.org/web/20251213041239/https://training.parthenos-project.eu/training-modules/) is a set of training modules in digital humanities and research infrastructures (<span style="background-color: orange; padding: 0 4px; border-radius: 8px">*archived resource*</span>)
+    * [Manage, improve and open up your research and data](https://web.archive.org/web/20260311185423/https://training.parthenos-project.eu/sample-page/manage-improve-and-open-up-your-research-and-data/) (<span style="background-color: orange; padding: 0 4px; border-radius: 8px">*archived resource*</span>)
+* [FOSTER open science courses](https://web.archive.org/web/20240327124325/https://www.fosteropenscience.eu/courses) (<span style="background-color: orange; padding: 0 4px; border-radius: 8px">*archived resource*</span>)
+    * [Managing and Sharing Research Data](https://doi.org/10.5281/zenodo.2630561) is an introductory course
 * [Research data bootcamp](https://data.blogs.bristol.ac.uk/bootcamp) is a general online course from University of Bristol
 * [Data Management Short Course for Scientists](https://commons.esipfed.org/datamanagementshortcourse) by the ESIP Federation in cooperation with NOAA and the Data Conservancy
 * [EUDAT Training](https://eudat.eu/training/research-data-management)
 * [EOSC-Pillar: RDM Training and support catalogue](https://www.eosc-pillar.eu/rdm-training-and-support-catalogue)
 * [Library Carpentry: FAIR Data and Software](https://librarycarpentry.org/lc-fair-research/) [[git](https://github.com/LibraryCarpentry/lc-fair-research)]
 * [Research Data Management Promotion Materials](https://rdmpromotion.rbind.io) [[git](https://github.com/Bayquiri/RDM-promotion)]
-* [openAIRE Workshops](https://www.openaire.eu/workshops) on various open access and open science topics.
-* [Essentials 4 Data Support](https://www.surf.nl/en/agenda/essentials-4-data-support-0) course by from Research Data Netherlands (RDNL).
+* [openAIRE Webinars](https://www.openaire.eu/webinars) on various open science topics
 
 #### Certificate programs (paid)
 
@@ -158,9 +156,10 @@ In a wider sense research data management include also research information mana
 
 ### Wikis and knowledge hubs
 
-* [forschungsdaten.info](https://forschungsdaten.info) is the central information platform for RDM in German-speaking countries.
-* [forschungsdaten.org](https://www.forschungsdaten.org) is a German RDM wiki that collaborates with forschungsdaten.info.
-* [RDM Compas](https://rdm-compas.org/en/homepage) is the knowledge hub of the NFDI consortium KonsortSWD, providing both general and data type specific information and training resources for RDM professionals (e.g., data stewards and data curators).
+* [Resource Hub](https://ardc.edu.au/resource-hub/) of the Australian Research Data Commons (ARDC)
+* [forschungsdaten.info](https://forschungsdaten.info) is the central information platform for RDM in German-speaking countries
+* [forschungsdaten.org](https://www.forschungsdaten.org) is a German RDM wiki that collaborates with forschungsdaten.info
+* [RDM Compas](https://rdm-compas.org/en/homepage) is the knowledge hub of the NFDI consortium KonsortSWD, providing both general and data type specific information and training resources for RDM professionals (e.g., data stewards and data curators)
 * [RDM Knowledge Base](https://www.ruhr-uni-bochum.de/researchdata/index.html) by Uni Bochum
 
 ### FAIR principles
@@ -168,7 +167,7 @@ In a wider sense research data management include also research information mana
 * [The FAIR Guiding Principles for scientific data management and stewardship](https://doi.org/10.1038/sdata.2016.18) is a classic paper on FAIR principles
 * [FAIR principles](https://www.go-fair.org/fair-principles) at go-FAIR.org with detailed descriptions
 * [The FAIR Cookbook](https://faircookbook.elixir-europe.org) [[git](https://github.com/FAIRplus/the-fair-cookbook)]
-* [Three-point FAIRification Framework "How to go FAIR"](https://www.go-fair.org/how-to-go-fair) at go-FAIR.org
+* [FAIR in action - a flexible framework to guide FAIRification](https://doi.org/10.1038/s41597-023-02167-2) by Danielle Welter et al. (2023)
 * [FAIR Maturity Indicators and Tools](https://github.com/FAIRMetrics/Metrics)
 * [FAIR Data Week at Uni Mannheim](https://github.com/UB-Mannheim/FAIR-Data-Week)
 * ["FAIR Data Resources" group at Zotero](https://www.zotero.org/groups/2345721/fair_data_resources/) by Atif Latif
@@ -186,10 +185,11 @@ In a wider sense research data management include also research information mana
 * [International Journal of Digital Curation](http://www.ijdc.net/index) about digital curation and data management
 
 ### Conferences
+
 * [E-Science-Tage](https://e-science-tage.de/en)
 * [IDCC (Digital Curation Centre)](https://www.dcc.ac.uk/events/idcc)
 * [Research Data Alliance (RDA) Plenary](https://www.rd-alliance.org/plenaries/)
-* [RDA DE Tagung](https://www.rda-deutschland.de/events)
+* [RDA DE Tagung](https://www.rda-deutschland.de/)
 * [Open Science Conference](https://www.open-science-conference.eu/)
 * [FDM-Kalender von forschungsdaten.info](https://forschungsdaten.info/kalender-index/)
 
@@ -203,26 +203,25 @@ _Use case:_ a researcher wants to plan, run and finish a research project.
 
 * [Benefits of data management](https://dmeg.cessda.eu/Data-Management-Expert-Guide/1.-Plan/Benefits-of-data-management) by CESSDA
 * [Benefits of RDM](https://library.up.ac.za/c.php?g=356288&p=2420384) by UP
-* [Advantages of research data management](https://ub.fau.de/en/research/data-and-software-in-research/advantages-of-research-data-management) by UB Erlangen-Nürnberg
 * [Benefits of good data management](https://www.st-andrews.ac.uk/research/support/open-research/research-data-management/working-with-data/benefits-of-good-data-management) by the University of St Andrews
-* [What are the advantages of managing research data?](https://www.ub.tum.de/en/what-are-the-advantages-of-managing-research-data) by UB TUM
 * [Benefits of Data Management](https://libguides.ucd.ie/data/benefits) by UCDL
 * [Benefits of RDM](https://www.fu-berlin.de/en/sites/forschungsdatenmanagement/ueber-forschungsdaten/vorteile/index.html) by FU Berlin
-* [Benefits of Open Data](https://sco.library.emory.edu/research-data-management/open-data/benefits-research.html) by Emory Library
+* [Benefits of Open Data](https://rmit.libguides.com/openresearch/data#s-lg-box-21934667) by RMIT University
 
 #### Costing RDM
 
 Check out research data center at your university. They will guide you in RDM for free.
-* [Cost-benefit analysis for FAIR research data - Cost of not having FAIR research data](https://data.europa.eu/doi/10.2777/02999) by Directorate-General for Research and Innovation (European Commission) and PwC EU Services 
+
+* [Cost-benefit analysis for FAIR research data - Cost of not having FAIR research data](https://data.europa.eu/doi/10.2777/02999) by Directorate-General for Research and Innovation (European Commission) and PwC EU Services
 * [Data management costing tool and checklist](https://ukdataservice.ac.uk/app/uploads/costingtool.pdf) by UK Data Service
-* [Guide on research data management costs](https://www.lcrdm.nl/files/lcrdm/2020-04/RDM%20and%20Costs_v20160218_EN.pdf) by LCRDM
+* [Costs of data management](https://rdmkit.elixir-europe.org/costs_data_management) by RDMkit
 * [Online tool for estimating RDM costs](https://www.openaire.eu/estimating-costs-rdm-tool) by OpenAIRE
-    * [Factsheet: "What will it cost to manage and share my data?"](https://doi.org/10.5281/zenodo.4548344) by OpenAIRE 
+    * [Factsheet: "What will it cost to manage and share my data?"](https://doi.org/10.5281/zenodo.4548344) by OpenAIRE
 
 #### Writing a project proposal and searching funding
 
 * [Tips for your proposal by DFG](https://www.dfg.de/en/research_funding/proposal_funding_process/individual_grants_programmes/tips_proposals/index.html)
-* [Planning and Writing a Grant Proposal: The Basics](https://writing.wisc.edu/handbook/assignments/grants-2) by The Writing Center at University of Wisconsin – Madison 
+* [Planning and Writing a Grant Proposal: The Basics](https://writing.wisc.edu/handbook/professionalwriting/grants/) by The Writing Center at University of Wisconsin – Madison
 
 #### Data management coordination
 
@@ -233,19 +232,19 @@ It makes sense only in big research projects.
 #### Data Management Planning
 
 A Data Management Plan (DMP) describes how research data is handled before the project has commenced, ensuring the traceability of data during the project and beyond. DMPs are often required in a formalized form when submitting a funding application or during the project period, for example with Horizon Europe, ERC grants. The DFG also asks for information on Data Management, although this is not explicitly a DMP and the DFG.  
- 
-A DMP typically contains the following elements: 
 
-- Data Description/Data Collection
-- Documentation and Data Quality
-- Storage and Backup
-- Legal and Ethical Requirements
-- Data Sharing and Archiving
-- Data Management, who and what?
+A DMP typically contains the following elements:
 
-**DMPs and Research Funding in Germany**: 
- 
-DMP requirements differ depending on the funding institution within Germany (see below). 
+* Data Description/Data Collection
+* Documentation and Data Quality
+* Storage and Backup
+* Legal and Ethical Requirements
+* Data Sharing and Archiving
+* Data Management, who and what?
+
+**DMPs and Research Funding in Germany**:
+
+DMP requirements differ depending on the funding institution within Germany (see below).
 
 | Funding Institution                               | DMP Requirements                                                                                                                                                                                                                                                                                                                                                                         | DMP Template       |
 |---------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|
@@ -267,14 +266,13 @@ And Across Europe:
 | Horizon Europe                  | Yes, applicants must submit a DMP after the first 6 months of the funding period and must continuously update the DMP if significant changes occur, see Horizon Europe.                                                | Yes          |
 | European Science Foundation     | No                                                                                                                                                                                                                     | No           |
 
-
 You may also want to consider the data management standards in your own research field (e.g., Humanities, Social Sciences, Business and Economics) which might inform what you should include in your DMP, in which case, check out the following:
 
-- [Standardised Data Management Plan for Educational Research](https://www.forschungsdaten-bildung.de/stamp-nutzen) of the Research Data Education Network
-- Research Data Management in the Social, [Behavioral and Economic Sciences, Chapter 2](https://www.konsortswd.de/aktuelles/publikation/forschungsdatenmanagement-in-den-sozial-verhaltens-und-wirtschaftswissenschaften/)
-- [Guidelines for Effective Data Management Plans](https://www.icpsr.umich.edu/web/pages/datamanagement/dmp/index.html) of the Inter-university Consortium for Political and Social Research
-- [DMP Wizard](https://www.clarin-d.net/de/aufbereiten/datenmanagementplan-entwickeln) by CLARIN-D, Humanities
-- [DMP template](https://www.parthenos-project.eu/portal/dmp) of the EU project PARTHENOS, Humanities
+* [Standardised Data Management Plan for Educational Research](https://www.forschungsdaten-bildung.de/stamp-nutzen) of the Research Data Education Network
+* Research Data Management in the Social, [Behavioral and Economic Sciences, Chapter 2](https://www.konsortswd.de/aktuelles/publikation/forschungsdatenmanagement-in-den-sozial-verhaltens-und-wirtschaftswissenschaften/)
+* [Guidelines for Effective Data Management Plans](https://www.icpsr.umich.edu/web/pages/datamanagement/dmp/index.html) of the Inter-university Consortium for Political and Social Research
+* [DMP Wizard](https://www.clarin-d.de/en/preparation/data-management-plan.html) by CLARIN-D, Humanities
+* [DMP template](https://web.archive.org/web/20260211174531/https://www.parthenos-project.eu/portal/dmp) of the EU project PARTHENOS, Humanities (<span style="background-color: orange; padding: 0 4px; border-radius: 8px">*archived resource*</span>)
 
 Need some inspiration? You can check out examples of DMPs from successful research applications by checking out the Digital Curation Center (DCC) [here](https://www.dcc.ac.uk/resources/data-management-plans/guidance-examples) and get an idea of what reviewers might be looking for [here](https://scienceeurope.org/media/4brkxxe5/se_rdm_practical_guide_extended_final.pdf).
 
@@ -286,7 +284,7 @@ For further information you can also check out the following:
 * [DMPonline](https://dmponline.dcc.ac.uk) is created by Digital Curation Centre (DCC), UK
 * [Data Stewardship Wizard](https://ds-wizard.org) is created by ELIXIR CZ and NL
 * [DMPTool](https://dmptool.org) by CDL, USA
-* [Data Management Plan Catalogue](https://libereurope.eu/dmpcatalogue) by the LIBER Research Data Management Working Group
+* [Data Management Plan Catalogue](https://libereurope.eu/working-group/research-data-management/plans/) by the LIBER Research Data Management Working Group
 * [Practical Guide to the International Alignment of Research Data Management](https://www.scienceeurope.org/our-resources/practical-guide-to-the-international-alignment-of-research-data-management) [[zenodo](https://doi.org/10.5281/zenodo.4915862)]
 * [Creating a data management plan (DMP) document](https://help.osf.io/article/144-creating-a-data-management-plan-dmp-document) by OSF
 
@@ -304,7 +302,7 @@ Reviewing and evaluating DMPs:
 
 There are also tips, toolkits and other materials to help institutions and projects develop a data policy. For example, you can find materials from these projects:
 * [FDMentor](https://www.forschungsdaten.org/index.php/FDMentor): [Empfehlungen zur Erstellung institutioneller Forschungsdaten-Policies](https://zenodo.org/records/3333410), [Strategischer Leitfaden zur Etablierung einer institutionellen Forschungsdaten-Policy](https://zenodo.org/records/3333392), [RISE-DE](https://zenodo.org/records/3585556)
-* [LEARN](https://learn-rdm.eu/en/about/): [Toolkit of Best Practice for Research Data Management](https://learn-rdm.eu/en/dissemination/toolkit/)
+* [LEARN: Toolkit of Best Practice for Research Data Management](http://dx.doi.org/10.14324/000.learn.00) (<span style="background-color: orange; padding: 0 4px; border-radius: 8px">*archived resource*</span>)
 
 #### Reusing data
 
@@ -312,6 +310,7 @@ There are also tips, toolkits and other materials to help institutions and proje
 * [Reusing existing data](https://www.ugent.be/en/research/datamanagement/before-research/data-reuse.htm) by Ghent University
 
 First, find it.
+
 * Search in a suitable data repository which you can find in [Registries](#registries).
 * Search at
     * [DataCite](https://search.datacite.org)
@@ -333,31 +332,38 @@ Check quality of the data. Check licenses. If you reuse data, cite it.
 #### Collecting data
 
 The focus here on:
+
 * Reusing existing data
 * Collecting new data
 
-General info on collecting data
+General info on collecting data:
+
 * [Collecting data](https://rdmkit.elixir-europe.org/collecting) in RDMkit
 
 Lists of data sources:
+
 * [10 Great Places to Find Free Datasets for Your Next Project](https://careerfoundry.com/en/blog/data-analytics/where-to-find-free-datasets)
-* [21 Places to Find Free Datasets for Data Science Projects](https://careers.uw.edu/blog/2021/10/05/21-places-to-find-free-datasets-for-data-science-projects-shared-article-from-dataquest)
+* [32 Best Free Datasets for Projects (2026)](https://www.dataquest.io/blog/free-datasets-for-projects/)
+* [50+ Free Datasets for Data Science Projects in 2026](https://www.interviewquery.com/p/free-datasets)
 
 Registries of data repositories:
+
 * [FAIRsharing](https://fairsharing.org) is a curated, informative and educational resource on data and metadata standards, inter-related to databases and data policies
 * [re3data](https://www.re3data.org) is a registry of research data repositories
 
 Metadata and data portals:
+
 * [Kaggle](https://www.kaggle.com/datasets)
 * [Google Dataset Search](https://datasetsearch.research.google.com)
 * [The official portal for European data](https://data.europa.eu)
 
 Methods of collecting data:
+
 * [7 Data Collection Methods in Business Analytics](https://online.hbs.edu/blog/post/data-collection-methods) by Harvard Business School
 
 #### Data documentation
 
-* [Making a research project understandable - Guide for data documentation (2018)](https://doi.org/10.5281/zenodo.1914401) by Siiri Fuchs and Mari Elisa Kuusniemi is a compact guide for researchers on how to document research data. 
+* [Making a research project understandable - Guide for data documentation (2018)](https://doi.org/10.5281/zenodo.1914401) by Siiri Fuchs and Mari Elisa Kuusniemi is a compact guide for researchers on how to document research data.
 
 ##### Creating metadata
 
@@ -366,7 +372,7 @@ Methods of collecting data:
 ##### Organizing data
 
 * [Data organization](https://rdmkit.elixir-europe.org/data_organisation) in RDMkit
-* [Folder structure, file names, and versioning](https://snd.gu.se/en/manage-data/organise/folder-structure-filenames-versioning) by Swedish National Data Service
+* [Organize data (File names, folder structure, and versioning)](https://researchdata.se/en/manage-data/organize-data) by Swedish National Data Service
 * [File Naming and Versioning](https://researchdata.wisc.edu/file-naming-and-versioning)
 * [Naming files and folders](https://www.imperial.ac.uk/research-and-innovation/support-for-staff/scholarly-communication/research-data-management/organising-and-describing-data/naming-files-and-folders) by Imperial College London
 * [File Naming Conventions & Version Control](https://records.princeton.edu/records-management-manual/file-naming-conventions-version-control)
@@ -383,7 +389,7 @@ Separate storage for sensitive data
 
 * [Data backups 101: A complete guide for 2023](https://us.norton.com/blog/how-to/data-backup)
 * [Raw data, backup and versioning: What you need to know to preserve your research data (2020)](https://doi.org/10.5281/zenodo.4041557) by Venkataraman, S. and Moura, P.
-* [Data Backup Strategies for Your PhD/Research Data](https://www.researchvoyage.com/data-backup-research-data)
+* [Data Backup Strategies for Your PhD/Research Data](https://web.archive.org/web/20260117071924/https://researchvoyage.com/data-backup-research-data/) (<span style="background-color: orange; padding: 0 4px; border-radius: 8px">*archived resource*</span>)
 * [Backup, Storage & Security](https://guides.library.pdx.edu/c.php?g=318088&p=2185650)
 
 #### Cleaning data
@@ -410,7 +416,7 @@ Separate storage for sensitive data
 
 * [Data anonymization](https://en.wikipedia.org/wiki/Data_anonymization) at Wikipedia
 * [Anonymisation and Pseudonymisation](https://www.ucl.ac.uk/data-protection/guidance-staff-students-and-researchers/practical-data-protection-guidance-notices/anonymisation-and) at University College London
-* [Anonymising quantitative data](https://ukdataservice.ac.uk/learning-hub/research-data-management/anonymisation/anonymising-quantitative-data) by UK Data Service
+* [Anonymising data and protecting participants](https://ukdataservice.ac.uk/learning-hub/data-producer-support/preparing-data-for-sharing-and-reuse/anonymising-data-and-protecting-participants/) by UK Data Service
 * [Anonymisation and pseudonymisation](https://www.dataprotection.ie/en/dpc-guidance/anonymisation-pseudonymisation) at dataprotection.ie
 
 Topics:
@@ -424,20 +430,25 @@ Topics:
 * [Data Protection Notice for Research Funding from the German Research Foundation (DFG)](https://www.dfg.de/en/service/privacy_policy/research_funding/index.html)
 * [Germany - Data Protection Overview](https://www.dataguidance.com/notes/germany-data-protection-overview)
 * [Data protection in research](https://www.helmholtz.de/en/about-us/our-values/data-protection) by Helmholtz.de
+* [iVA1: Applicability of the GDPR](https://www.berd-nfdi.de/iva1/): iVA1 will show you if the General Data Protection Regulation (GDPR) applies to your research data
+* [iVA2: Consent as a Legal Basis](https://www.berd-nfdi.de/iva2/): iVA2 helps you identify what you have to keep in mind to get a lawful consent for data processing
 
 #### Data provenance
 
 * [Data provenance](https://rdmkit.elixir-europe.org/data_provenance) in RDMkit
+* [Data provenance](https://ardc.edu.au/resource/data-provenance/) on the ARDC resource hub
 
 #### Legal aspects
 
 * [FAIRmat Guide to Legal Aspects in Research Data Management](https://doi.org/10.5281/zenodo.11083303)
 * [Research Data Management - Legal and Practical Aspects](https://doi.org/10.5281/zenodo.6841070) by Anja Perry, & Jan-Ocko Heuer (2022, Juli 15)
 * [Research Data Management - Legal Aspects](https://doi.org/10.5281/zenodo.3349706) by Maurice Schleußinger (2019, Juli 24)
+* [iVA3: Research Relevant Legal Base](https://www.berd-nfdi.de/iva3/): iVA3 guides you through the process of determining whether data processing in the context of your research project meets a federal or state legal basis
 
 ### Finishing a project
 
 The [difference between sharing, publishing & archiving](https://datacarpentry.org/rr-publication/01-publication) is:
+
 * sharing: any way of sharing information, could mean also emailing. It means also making research data available throughout the research lifecycle, especially during the active research phase, typically via cloud storage.
 * publishing: citable artifact, discoverable.
 * archiving: long-term preservation.
@@ -451,6 +462,7 @@ You can share the data via GitHub
 #### Publishing data
 
 Data journals:
+
 * list of data journals at [Forschungsdaten.org](https://www.forschungsdaten.org/index.php/Data_Journals)
 * list of data journals at [GitHub repo data-journals](https://github.com/MaxiKi/data-journals/blob/main/data_journals_characteristics.csv)
 * list of data journals at [Wikidata](https://w.wiki/6$vi)
@@ -468,9 +480,10 @@ Data journals:
 * [The Legal Side of Open Source](https://opensource.guide/legal)
 
 For restricted access data:
+
 * [Restrictive Licence Template](https://library.unimelb.edu.au/Digital-Scholarship/restrictive-licence-template)
-* [Data Availability Statements for Restricted Data](https://social-science-data-editors.github.io/guidance/DCAS_Restricted_data.html)
-* [Aligning restricted access data with FAIR: a systematic review](https://doi.org/10.7717%2Fpeerj-cs.1038)
+* [Data Availability Statements for Restricted Data](https://social-science-data-editors.github.io/guidance/Samples/DCAS_Restricted_data.html)
+* [Aligning restricted access data with FAIR: a systematic review](https://doi.org/10.7717/peerj-cs.1038)
 
 #### Archiving data
 
@@ -479,7 +492,7 @@ For restricted access data:
 
 ## RDM for organizations
 
-* [LEARN Project resources](https://learn-rdm.eu/en/about) are resources to help Research Performing Institutions manage their research data
+* [LEARN Project resources](http://dx.doi.org/10.14324/000.learn.00) are resources to help Research Performing Institutions manage their research data. (<span style="background-color: orange; padding: 0 4px; border-radius: 8px">*archived resource*</span>)
 
 ### How to develop RDM services
 
@@ -552,7 +565,7 @@ There are 26 domain-specific [NFDI](https://www.nfdi.de) consortia aiming to ens
 * [NFDI4Energy](https://nfdi4energy.uol.de): National Research Data Infrastructure for Interdisciplinary Energy System Research
 * [NFDI4Ing](https://nfdi4ing.de): NFDI for Engineering Sciences
 * [NFDI-MatWerk](https://nfdi-matwerk.de): National Research Data Infrastructure for Materials Science and Materials Engineering
-* [NFDIxCS](https://nfdixcs.org): National Research Data Infrastructure for and with Computer Science
+* [NFDIxCS](https://nfdixcs.org/): National Research Data Infrastructure for and with Computer Science
 
 #### NFDI consortia in Life Sciences
 
