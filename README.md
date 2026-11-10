@@ -113,9 +113,9 @@ In a wider sense research data management include also research information mana
 * [Research Data Management with DataLad](https://psychoinformatics-de.github.io/rdm-course) [[git](https://github.com/psychoinformatics-de/rdm-course)]
 * [RDM at Griffith Uni Library](https://griffithunilibrary.github.io/research-data-management/) is short guide for self paced RDM [[git](https://github.com/GriffithUniLibrary/research-data-management)]
 * [RDM E-Learning Platform](https://www.researchdatamanagement.ch) ist eine E-learning-Webseite zum Thema Forschungsdatenmanagement der HTW Chur und der HEG Genf
-* [PARTHENOS training](https://web.archive.org/web/20251213041239/https://training.parthenos-project.eu/training-modules/) is a set of training modules in digital humanities and research infrastructures (<span style="background-color: orange; padding: 0 4px; border-radius: 8px">*archived resource*</span>)
-    * [Manage, improve and open up your research and data](https://web.archive.org/web/20260311185423/https://training.parthenos-project.eu/sample-page/manage-improve-and-open-up-your-research-and-data/) (<span style="background-color: orange; padding: 0 4px; border-radius: 8px">*archived resource*</span>)
-* [FOSTER open science courses](https://web.archive.org/web/20240327124325/https://www.fosteropenscience.eu/courses) (<span style="background-color: orange; padding: 0 4px; border-radius: 8px">*archived resource*</span>)
+* [PARTHENOS training](https://web.archive.org/web/20251213041239/https://training.parthenos-project.eu/training-modules/) [⛓️‍💥 **archived resource**] is a set of training modules in digital humanities and research infrastructures
+    * [Manage, improve and open up your research and data](https://web.archive.org/web/20260311185423/https://training.parthenos-project.eu/sample-page/manage-improve-and-open-up-your-research-and-data/) [⛓️‍💥 **archived resource**]
+* [FOSTER open science courses](https://web.archive.org/web/20240327124325/https://www.fosteropenscience.eu/courses) [⛓️‍💥 **archived resource**]
     * [Managing and Sharing Research Data](https://doi.org/10.5281/zenodo.2630561) is an introductory course
 * [Research data bootcamp](https://data.blogs.bristol.ac.uk/bootcamp) is a general online course from University of Bristol
 * [Data Management Short Course for Scientists](https://commons.esipfed.org/datamanagementshortcourse) by the ESIP Federation in cooperation with NOAA and the Data Conservancy
@@ -272,7 +272,7 @@ You may also want to consider the data management standards in your own research
 * Research Data Management in the Social, [Behavioral and Economic Sciences, Chapter 2](https://www.konsortswd.de/aktuelles/publikation/forschungsdatenmanagement-in-den-sozial-verhaltens-und-wirtschaftswissenschaften/)
 * [Guidelines for Effective Data Management Plans](https://www.icpsr.umich.edu/web/pages/datamanagement/dmp/index.html) of the Inter-university Consortium for Political and Social Research
 * [DMP Wizard](https://www.clarin-d.de/en/preparation/data-management-plan.html) by CLARIN-D, Humanities
-* [DMP template](https://web.archive.org/web/20260211174531/https://www.parthenos-project.eu/portal/dmp) of the EU project PARTHENOS, Humanities (<span style="background-color: orange; padding: 0 4px; border-radius: 8px">*archived resource*</span>)
+* [DMP template](https://web.archive.org/web/20260211174531/https://www.parthenos-project.eu/portal/dmp) [⛓️‍💥 **archived resource**] of the EU project PARTHENOS, Humanities
 
 Need some inspiration? You can check out examples of DMPs from successful research applications by checking out the Digital Curation Center (DCC) [here](https://www.dcc.ac.uk/resources/data-management-plans/guidance-examples) and get an idea of what reviewers might be looking for [here](https://scienceeurope.org/media/4brkxxe5/se_rdm_practical_guide_extended_final.pdf).
 
@@ -302,7 +302,7 @@ Reviewing and evaluating DMPs:
 
 There are also tips, toolkits and other materials to help institutions and projects develop a data policy. For example, you can find materials from these projects:
 * [FDMentor](https://www.forschungsdaten.org/index.php/FDMentor): [Empfehlungen zur Erstellung institutioneller Forschungsdaten-Policies](https://zenodo.org/records/3333410), [Strategischer Leitfaden zur Etablierung einer institutionellen Forschungsdaten-Policy](https://zenodo.org/records/3333392), [RISE-DE](https://zenodo.org/records/3585556)
-* [LEARN: Toolkit of Best Practice for Research Data Management](http://dx.doi.org/10.14324/000.learn.00) (<span style="background-color: orange; padding: 0 4px; border-radius: 8px">*archived resource*</span>)
+* [LEARN: Toolkit of Best Practice for Research Data Management](http://dx.doi.org/10.14324/000.learn.00) [⛓️‍💥 **archived resource**]
 
 #### Reusing data
 
@@ -389,7 +389,7 @@ Separate storage for sensitive data
 
 * [Data backups 101: A complete guide for 2023](https://us.norton.com/blog/how-to/data-backup)
 * [Raw data, backup and versioning: What you need to know to preserve your research data (2020)](https://doi.org/10.5281/zenodo.4041557) by Venkataraman, S. and Moura, P.
-* [Data Backup Strategies for Your PhD/Research Data](https://web.archive.org/web/20260117071924/https://researchvoyage.com/data-backup-research-data/) (<span style="background-color: orange; padding: 0 4px; border-radius: 8px">*archived resource*</span>)
+* [Data Backup Strategies for Your PhD/Research Data](https://web.archive.org/web/20260117071924/https://researchvoyage.com/data-backup-research-data/) [⛓️‍💥 **archived resource**]
 * [Backup, Storage & Security](https://guides.library.pdx.edu/c.php?g=318088&p=2185650)
 
 #### Cleaning data
@@ -492,7 +492,7 @@ For restricted access data:
 
 ## RDM for organizations
 
-* [LEARN Project resources](http://dx.doi.org/10.14324/000.learn.00) are resources to help Research Performing Institutions manage their research data. (<span style="background-color: orange; padding: 0 4px; border-radius: 8px">*archived resource*</span>)
+* [LEARN Project resources](http://dx.doi.org/10.14324/000.learn.00) [⛓️‍💥 **archived resource**] are resources to help Research Performing Institutions manage their research data.
 
 ### How to develop RDM services
 
